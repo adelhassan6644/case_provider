@@ -6,17 +6,16 @@ class EndPoints {
   static const String apiKey =
       's7xrpFdw4G0F21rfLyD4TaBkjVJYgwGfI3y60OyRnjw9zOggruX30e1as2d3';
   static const String topic = 'casaProvider';
-  static const String logIn = 'login';
-  static const String register = 'client';
-  static const String forgetPassword = 'resetPassword/email';
-  static const String checkMailForResetPassword = 'resetPassword/checkCode';
-  static const String resetPassword = 'resetPassword/newPassword';
+  static const String logIn = 'worker/login';
+  static const String register = 'worker';
+  static const String forgetPassword = 'worker/resetPassword/email';
+  static const String checkMailForResetPassword = 'worker/resetPassword/checkCode';
+  static const String resetPassword = 'worker/resetPassword/newPassword';
   static changePassword(id) => 'client/$id';
-  static const String resend = 'email/verification';
-  static const String verifyEmail = 'check/verificationCode';
-  static getProfile(id) => 'client/$id';
-  static updateProfile(id) => 'client/$id';
-  static getFavourites(id) => 'favorites/$id';
+  static const String resend = 'worker/email/verification';
+  static const String verifyEmail = 'worker/check/verificationCode';
+  static getProfile(id) => 'worker/$id';
+  static updateProfile(id) => 'worker/$id';
   static getNotifications(id) => 'notification/$id';
   static getAddresses(id) => 'address/$id';
   static deleteAddress(id) => 'address/$id';
@@ -24,8 +23,8 @@ class EndPoints {
   static readNotification(id) => 'notification/read/$id';
   static deleteNotification(id) => 'notification/delete/$id';
   static cancelReservation(id) => 'reservation/$id';
-  static nextReservations(id) => 'next/reservation/$id';
-  static previousReservations(id) => 'past/reservation/$id';
+  static nextReservations(id) => 'worker/next/reservation/$id';
+  static previousReservations(id) => 'worker/past/reservation/$id';
   static const String postFavourite = 'favorite';
   static const String category = 'service';
   static const products = 'subService';
