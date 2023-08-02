@@ -4844,13 +4844,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		01C1661737BFE445121504D895154733 /* casaProvider_provider */ = {
+		01C1661737BFE445121504D895154733 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				A32C41C6097BBB885F54DF148E3C256C /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		02409B3F5219DF3A7B65D8DDEBCBDA7C /* ios */ = {
@@ -4933,7 +4933,7 @@
 		05F4088921F412A0545E127C77C2BD0B /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				BCC4420A48F2BA6DD8AFC5A3481954F4 /* casaProvider_provider */,
+				BCC4420A48F2BA6DD8AFC5A3481954F4 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -5299,7 +5299,7 @@
 		08E7F3084C8C8BFEF832E6F6552D9CEF /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				FAD0B2DBA4847F5F70A0CEE2C301A90F /* casaProvider_provider */,
+				FAD0B2DBA4847F5F70A0CEE2C301A90F /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -5344,13 +5344,13 @@
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
-		09B627DA27CB2C18B597C046C9B00C08 /* casaProvider_provider */ = {
+		09B627DA27CB2C18B597C046C9B00C08 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				904356F98F70F23AF7A547FD126A2DF2 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		09EDDA7F78AFCB31F0BABEB86B7012D7 /* google_maps_flutter_ios */ = {
@@ -5364,13 +5364,13 @@
 			path = ../.symlinks/plugins/google_maps_flutter_ios/ios;
 			sourceTree = "<group>";
 		};
-		0A362B9AA11B09D3D5059A3A70721BAC /* casaProvider_provider */ = {
+		0A362B9AA11B09D3D5059A3A70721BAC /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				854D36BDEFBEC2855B55975F4E9B5D4F /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		0AECB2DF4EF4CDBD033EBBD33F7ADA75 /* plugins */ = {
@@ -5611,13 +5611,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		1503D7A849CBB6979487953E75BA2339 /* casaProvider_provider */ = {
+		1503D7A849CBB6979487953E75BA2339 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				CE650CB3DFF84BD987569843A0B25FE3 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		153BCCBA9FB1FF1A65B9022AC585F465 /* Pod */ = {
@@ -5646,7 +5646,7 @@
 		1595E5824325A65F33245F0C5BA6662D /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				C48F45D55C61083D45B9495EDB5BE672 /* casaProvider_provider */,
+				C48F45D55C61083D45B9495EDB5BE672 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -6025,13 +6025,13 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		246157008E477051E12BE49F85CB3428 /* casaProvider_provider */ = {
+		246157008E477051E12BE49F85CB3428 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				5DD471F0AD69472A8C72095573B647FC /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		24AA7D50FA73D0D0C76717DAE391489F /* ios */ = {
@@ -6115,7 +6115,7 @@
 		26571677DC370F01F7B5E550B191200A /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				C447236C905A5587A63AB9D616023694 /* casaProvider_provider */,
+				C447236C905A5587A63AB9D616023694 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -6130,13 +6130,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		276E8E613A084E972E7328C7057A7451 /* casaProvider_provider */ = {
+		276E8E613A084E972E7328C7057A7451 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				C49AA639D88F0D1FCA4EB220E696FF1B /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		288DCD524AF396DD282912E5D2D4EA6D /* .. */ = {
@@ -6253,13 +6253,13 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		2EC4D96BA7FCC85A69B4F701DEF99922 /* casaProvider_provider */ = {
+		2EC4D96BA7FCC85A69B4F701DEF99922 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				9F348D69EFCC5BF901F68F1AC6B0597A /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		2EFC946613C2F178DB00E72B35ABF0A8 /* .. */ = {
@@ -6384,13 +6384,13 @@
 			path = ../.symlinks/plugins/wakelock_plus/ios;
 			sourceTree = "<group>";
 		};
-		332C9B11E2BB0D73A0BFFE4470B16F6F /* casaProvider_provider */ = {
+		332C9B11E2BB0D73A0BFFE4470B16F6F /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				A6B29F955F0D37E8F65426B387A66793 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		333A9EC3A18D6379ECB379AFA55CD153 /* fluttertoast */ = {
@@ -6429,13 +6429,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		355F367FD68082B5A7481250F61CDBF4 /* casaProvider_provider */ = {
+		355F367FD68082B5A7481250F61CDBF4 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				50D34B871CD7D1C6302EB7B2466E5FC2 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		357A544F52A8EE805A71C9F4B6497320 /* .. */ = {
@@ -6486,13 +6486,13 @@
 			path = GoogleAppMeasurement;
 			sourceTree = "<group>";
 		};
-		3719455E2471875C03D2C97138709EF3 /* casaProvider_provider */ = {
+		3719455E2471875C03D2C97138709EF3 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				24AA7D50FA73D0D0C76717DAE391489F /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		379BF9A372C82F8348B8BEB1F1956E85 /* .. */ = {
@@ -6560,7 +6560,7 @@
 		38826ECA6B0BDB429E49B5D181F0379F /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				E8CE7085C53E7D9B5CD3DED16DA56933 /* casaProvider_provider */,
+				E8CE7085C53E7D9B5CD3DED16DA56933 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -6665,13 +6665,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		3EDB115C3B50536A30A1A10199FFBAFF /* casaProvider_provider */ = {
+		3EDB115C3B50536A30A1A10199FFBAFF /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				2B3B1DAE9B3D5C0B237FE85F11019FC6 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		3F53A4755A0B294FB9B6DBFA85E22124 /* Pods */ = {
@@ -6708,7 +6708,7 @@
 		3F7041FD76335E3883C043471BBCE254 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				332C9B11E2BB0D73A0BFFE4470B16F6F /* casaProvider_provider */,
+				332C9B11E2BB0D73A0BFFE4470B16F6F /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -6762,13 +6762,13 @@
 			path = ios;
 			sourceTree = "<group>";
 		};
-		42352FD187C70B5E9E16892F610D4C4B /* casaProvider_provider */ = {
+		42352FD187C70B5E9E16892F610D4C4B /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				0F5D5AE24EAE6CD00291FF05675C306C /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		4240F4416A044C7BF494DAE1A4F5A6D9 /* wakelock_plus */ = {
@@ -7134,7 +7134,7 @@
 		4CFA739BF970D64BF0FF9D722EE752B8 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				CC7A756C3A7534396127ADB2D3CCD941 /* casaProvider_provider */,
+				CC7A756C3A7534396127ADB2D3CCD941 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -7290,7 +7290,7 @@
 		519D7AD765C16C515A5C2CB613506F12 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				C973DD2AE8ED4A0155059F15424589B5 /* casaProvider_provider */,
+				C973DD2AE8ED4A0155059F15424589B5 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -7552,7 +7552,7 @@
 		5D44D7D469733610B8F2CDC380541568 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				B8B04185F19AB1E8FF29341E61844280 /* casaProvider_provider */,
+				B8B04185F19AB1E8FF29341E61844280 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -7628,7 +7628,7 @@
 		61CA1D4CF520EF3FB9856E53DD21D7BD /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				6D8B2051EF33FF08D70F2ED0BE83A853 /* casaProvider_provider */,
+				6D8B2051EF33FF08D70F2ED0BE83A853 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -7677,7 +7677,7 @@
 		64A9589E869B9871813DAD6DFA2324FC /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				355F367FD68082B5A7481250F61CDBF4 /* casaProvider_provider */,
+				355F367FD68082B5A7481250F61CDBF4 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -7735,13 +7735,13 @@
 			path = "../Target Support Files/FirebaseAuth";
 			sourceTree = "<group>";
 		};
-		6802D0A473BF3DCBA10B45AD6723BB6A /* casaProvider_provider */ = {
+		6802D0A473BF3DCBA10B45AD6723BB6A /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				B32F5E0135DFEF62CC247A50DDE8D99D /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		680D18C32E1F93874522AAEF8A732403 /* shared_preferences_foundation */ = {
@@ -7848,13 +7848,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		6B5D681E0E25416EC63AF786B90309A6 /* casaProvider_provider */ = {
+		6B5D681E0E25416EC63AF786B90309A6 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				313A71D7CB00A1A1A77B3703AA159528 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		6B928460C835CEEB4C15BE0A91959E2A /* FirebaseAnalytics */ = {
@@ -7888,7 +7888,7 @@
 		6CF29618B566C2A751523D639368DA36 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				7062470200AFA5330689CE983934C694 /* casaProvider_provider */,
+				7062470200AFA5330689CE983934C694 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -7949,13 +7949,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		6D8B2051EF33FF08D70F2ED0BE83A853 /* casaProvider_provider */ = {
+		6D8B2051EF33FF08D70F2ED0BE83A853 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				569C7CE2E54D701B98DAFFFCD463C9C8 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		6DC806C78497143A49C3DE85088CE2ED /* .. */ = {
@@ -7979,7 +7979,7 @@
 		6E7978DD6A48366C108A4B7CB674FB48 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				6802D0A473BF3DCBA10B45AD6723BB6A /* casaProvider_provider */,
+				6802D0A473BF3DCBA10B45AD6723BB6A /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -8034,7 +8034,7 @@
 		6F77CCAE2788828A60749272AF7FB00A /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				09B627DA27CB2C18B597C046C9B00C08 /* casaProvider_provider */,
+				09B627DA27CB2C18B597C046C9B00C08 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -8106,13 +8106,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		7062470200AFA5330689CE983934C694 /* casaProvider_provider */ = {
+		7062470200AFA5330689CE983934C694 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				48AFB41E1B25BC0007BB511B0426F016 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		70DD79A4EED2456C49A9DC03CD8EE0B3 /* Support Files */ = {
@@ -8459,7 +8459,7 @@
 		79B53EFD3D47AA7D09405D838A795944 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				246157008E477051E12BE49F85CB3428 /* casaProvider_provider */,
+				246157008E477051E12BE49F85CB3428 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -8511,7 +8511,7 @@
 		7A720BF895EDC1C8680853E1D0E50AF2 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				3719455E2471875C03D2C97138709EF3 /* casaProvider_provider */,
+				3719455E2471875C03D2C97138709EF3 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -8955,7 +8955,7 @@
 		8F47757F7B72730E7DC75EE8250620AD /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				1503D7A849CBB6979487953E75BA2339 /* casaProvider_provider */,
+				1503D7A849CBB6979487953E75BA2339 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -9381,7 +9381,7 @@
 		A3E80DF04AE1B874EEE2CA5E0B55287C /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				B2E5CEDAF6503AC557F671F145DDADA5 /* casaProvider_provider */,
+				B2E5CEDAF6503AC557F671F145DDADA5 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -9481,7 +9481,7 @@
 		A6694371E0B445D890B499D0C0DA7358 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				276E8E613A084E972E7328C7057A7451 /* casaProvider_provider */,
+				276E8E613A084E972E7328C7057A7451 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -9735,13 +9735,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		B2E5CEDAF6503AC557F671F145DDADA5 /* casaProvider_provider */ = {
+		B2E5CEDAF6503AC557F671F145DDADA5 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				4282BD8A4D1ADC81BD68B1DCBB2FD1A8 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		B32F5E0135DFEF62CC247A50DDE8D99D /* ios */ = {
@@ -9781,28 +9781,28 @@
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
-		B5694B60709C4F76105AFBD7838FB5ED /* casaProvider_provider */ = {
+		B5694B60709C4F76105AFBD7838FB5ED /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				46380DAA9EE4BFFE4033BB82168833F2 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
-		B58DDAC1A117AD834D21A1FE2F60314C /* casaProvider_provider */ = {
+		B58DDAC1A117AD834D21A1FE2F60314C /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				4837AC1457EAA09B2DAEFBBF8E1C505E /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		B6069612D17474127D9582402301BF97 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				3EDB115C3B50536A30A1A10199FFBAFF /* casaProvider_provider */,
+				3EDB115C3B50536A30A1A10199FFBAFF /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -9872,13 +9872,13 @@
 			path = "../../../../../../../.pub-cache/hosted/pub.dev/google_maps_flutter_ios-2.2.3/ios";
 			sourceTree = "<group>";
 		};
-		B8B04185F19AB1E8FF29341E61844280 /* casaProvider_provider */ = {
+		B8B04185F19AB1E8FF29341E61844280 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				E32AE5A82DC2DA3DE5B7B5613FBA580A /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		B8FE1498F4DF99FA88AF77F5723CF5F1 /* Frameworks */ = {
@@ -9925,13 +9925,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		BCC4420A48F2BA6DD8AFC5A3481954F4 /* casaProvider_provider */ = {
+		BCC4420A48F2BA6DD8AFC5A3481954F4 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				DD38310188F978B3FF537629D6028E34 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		BD17F717D1B5321852D57334DA047C4F /* .symlinks */ = {
@@ -10005,7 +10005,7 @@
 		BFEE34D1951C28EC8B568372D4CCBC90 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				B5694B60709C4F76105AFBD7838FB5ED /* casaProvider_provider */,
+				B5694B60709C4F76105AFBD7838FB5ED /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -10077,19 +10077,19 @@
 		C388B4EDC84B798827211976F7F81550 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				D07AB6334397536BCEDD918752842324 /* casaProvider_provider */,
+				D07AB6334397536BCEDD918752842324 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
 			sourceTree = "<group>";
 		};
-		C447236C905A5587A63AB9D616023694 /* casaProvider_provider */ = {
+		C447236C905A5587A63AB9D616023694 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				8FF22BA630CE32CC0E05909DA8E2E50C /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		C448E5ADA1355F940360576FC99F2803 /* .. */ = {
@@ -10115,13 +10115,13 @@
 			path = InAppBrowser;
 			sourceTree = "<group>";
 		};
-		C48F45D55C61083D45B9495EDB5BE672 /* casaProvider_provider */ = {
+		C48F45D55C61083D45B9495EDB5BE672 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				1DC1C001AA5255604CC675EFA34AE9E9 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		C49AA639D88F0D1FCA4EB220E696FF1B /* ios */ = {
@@ -10216,13 +10216,13 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		C973DD2AE8ED4A0155059F15424589B5 /* casaProvider_provider */ = {
+		C973DD2AE8ED4A0155059F15424589B5 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				9531999C35AA539736F7931B59F1F1A0 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		C9833245B2E9AD4EC1FF8609B84AA814 /* Pod */ = {
@@ -10253,7 +10253,7 @@
 		CA048CA03E2DBD264ACCCB9626683B91 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				6B5D681E0E25416EC63AF786B90309A6 /* casaProvider_provider */,
+				6B5D681E0E25416EC63AF786B90309A6 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -10262,7 +10262,7 @@
 		CA38D254B0C2F2E218C8F79874E915A8 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				01C1661737BFE445121504D895154733 /* casaProvider_provider */,
+				01C1661737BFE445121504D895154733 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -10340,13 +10340,13 @@
 			path = nanopb;
 			sourceTree = "<group>";
 		};
-		CC7A756C3A7534396127ADB2D3CCD941 /* casaProvider_provider */ = {
+		CC7A756C3A7534396127ADB2D3CCD941 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				FAE96EDC4DB024F4D6BCB80C07F418FD /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		CD61F21638397CBF18FE247DAAD7C8C3 /* .. */ = {
@@ -10471,19 +10471,19 @@
 		D03AECE23B8AA51CEC40805B9670C7FE /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				42352FD187C70B5E9E16892F610D4C4B /* casaProvider_provider */,
+				42352FD187C70B5E9E16892F610D4C4B /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
 			sourceTree = "<group>";
 		};
-		D07AB6334397536BCEDD918752842324 /* casaProvider_provider */ = {
+		D07AB6334397536BCEDD918752842324 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				6873F7D1089D2FFE2026956A9FC3CE72 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		D191C85C6F634C82C41E968A66DEA6B0 /* .. */ = {
@@ -10617,7 +10617,7 @@
 		D49C61365958373E4D836EB8ECEDEB2A /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				2EC4D96BA7FCC85A69B4F701DEF99922 /* casaProvider_provider */,
+				2EC4D96BA7FCC85A69B4F701DEF99922 /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -11362,13 +11362,13 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		E8CE7085C53E7D9B5CD3DED16DA56933 /* casaProvider_provider */ = {
+		E8CE7085C53E7D9B5CD3DED16DA56933 /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				4112EB63D16039E1B4B9895A66128825 /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		E8E5C52E1821046FCC5F184DD221BDCA /* ios */ = {
@@ -11419,7 +11419,7 @@
 		EB3841E8878BB85710384008BAC1BCBE /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				B58DDAC1A117AD834D21A1FE2F60314C /* casaProvider_provider */,
+				B58DDAC1A117AD834D21A1FE2F60314C /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -11505,7 +11505,7 @@
 		EDC431CCB4B28D8370CB390942C4ECD8 /* SoftweareCloud2 */ = {
 			isa = PBXGroup;
 			children = (
-				0A362B9AA11B09D3D5059A3A70721BAC /* casaProvider_provider */,
+				0A362B9AA11B09D3D5059A3A70721BAC /* casa_provider */,
 			);
 			name = SoftweareCloud2;
 			path = SoftweareCloud2;
@@ -11726,13 +11726,13 @@
 			path = plugins;
 			sourceTree = "<group>";
 		};
-		FAD0B2DBA4847F5F70A0CEE2C301A90F /* casaProvider_provider */ = {
+		FAD0B2DBA4847F5F70A0CEE2C301A90F /* casa_provider */ = {
 			isa = PBXGroup;
 			children = (
 				7991C2BB19C4181138F17846607213DC /* ios */,
 			);
-			name = casaProvider_provider;
-			path = casaProvider_provider;
+			name = casa_provider;
+			path = casa_provider;
 			sourceTree = "<group>";
 		};
 		FAE96EDC4DB024F4D6BCB80C07F418FD /* ios */ = {
