@@ -16,12 +16,12 @@ class EndPoints {
   static const String verifyEmail = 'worker/check/verificationCode';
   static getProfile(id) => 'worker/$id';
   static updateProfile(id) => 'worker/$id';
-  static getNotifications(id) => 'notification/$id';
   static getAddresses(id) => 'address/$id';
   static deleteAddress(id) => 'address/$id';
   static String addAddress = 'address';
-  static readNotification(id) => 'notification/read/$id';
-  static deleteNotification(id) => 'notification/delete/$id';
+  static getNotifications(id) => 'notification/$id';
+  static readNotification(userId,id) => 'notification/read/$userId/$id';
+  static deleteNotification(userId,id) => 'notification/delete/$userId/$id';
   static cancelReservation(id) => 'reservation/$id';
   static nextReservations(id) => 'worker/next/reservation/$id';
   static previousReservations(id) => 'worker/past/reservation/$id';
@@ -32,8 +32,9 @@ class EndPoints {
   static banners(id) => 'banners/$id';
   static productDetails(id) => 'subService/$id';
 
-  static const String aboutUs = 'about_us';
-  static const String setting = 'contact';
+  static const String feedBack = 'feedback';
+  static const String setting = 'setting';
+  static const String contact = 'contact';
 
   /// maps
   static const String GEOCODE_URI = '/maps/api/geocode/';

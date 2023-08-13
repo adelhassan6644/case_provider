@@ -1,16 +1,16 @@
-import 'package:casaProvider/app/core/utils/images.dart';
-import 'package:casaProvider/components/custom_images.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:provider/provider.dart';
+import '../../../app/core/utils/images.dart';
 import '../../../app/core/utils/styles.dart';
 import '../../../app/core/utils/dimensions.dart';
 import '../../../app/core/utils/text_styles.dart';
 import '../../../app/localization/localization/language_constant.dart';
 import '../../../components/animated_widget.dart';
 import '../../../components/custom_app_bar.dart';
+import '../../../components/custom_images.dart';
 import '../../../components/empty_widget.dart';
-import '../provider/setting_provider.dart';
+import '../provider/config_provider.dart';
 
 class Terms extends StatelessWidget {
   const Terms({Key? key}) : super(key: key);
@@ -25,7 +25,7 @@ class Terms extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               CustomAppBar(title: getTranslated("terms_conditions", context)),
-              Consumer<SettingProvider>(builder: (_, provider, child) {
+              Consumer<ConfigProvider>(builder: (_, provider, child) {
                 return !provider.isLoading
                     ? Expanded(
                         child: Container(
@@ -56,9 +56,8 @@ class Terms extends StatelessWidget {
                               SizedBox(
                                 height: 24.h,
                               ),
-                              provider.model != null
-                                  ? HtmlWidget(
-                                      provider.model?.data?.terms ?? "")
+                              provider.setting != null
+                                  ? HtmlWidget(provider.setting?.terms ?? "")
                                   : EmptyState(
                                       txt: getTranslated(
                                           "something_went_wrong", context),

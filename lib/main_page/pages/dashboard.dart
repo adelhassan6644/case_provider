@@ -7,7 +7,6 @@ import 'package:provider/provider.dart';
 import '../../../app/core/utils/styles.dart';
 import '../../data/config/di.dart';
 import '../../data/network/network_info.dart';
-import '../../features/address/provider/addresses_provider.dart';
 import '../../features/home/page/home.dart';
 import '../../features/more/page/more.dart';
 import '../../features/reservations/page/reservations.dart';
@@ -24,7 +23,6 @@ class _DashBoardState extends State<DashBoard> {
   void initState() {
     NetworkInfo.checkConnectivity();
     sl<HomeProvider>().getCategories();
-    sl<AddressesProvider>().getAddresses();
     sl<ProfileProvider>().getProfile();
     super.initState();
   }

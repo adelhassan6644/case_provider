@@ -7,18 +7,13 @@ class Routes {
   static const VERIFICATION = "VERIFICATION";
   static const RESET_PASSWORD = "RESET_PASSWORD";
   static const REGISTER = "REGISTER";
-  static const MAIN_PAGE = "MAIN_PAGE";
   static const DASHBOARD = "DASHBOARD";
-  static const NEWS = "NEWS";
   static const CHANGE_PASSWORD = "CHANGE_PASSWORD";
   static const EDIT_PROFILE = "EDIT_PROFILE";
   static const PICK_LOCATION = "PICK_LOCATION";
   static const PRODUCT_DETAILS = "PRODUCT_DETAILS";
   static const NOTIFICATIONS = "NOTIFICATIONS";
-  static const FAVOURITE = "FAVOURITE";
-  static const CONTACT_WITH_US = "CONTACT_WITH_US";
   static const ABOUT_US = "ABOUT_US";
-  static const ADDRESS = "ADDRESS";
   static const TERMS = "TERMS";
 
 }

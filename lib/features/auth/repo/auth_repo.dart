@@ -51,17 +51,17 @@ class AuthRepo {
   }
 
   Future<String?> saveDeviceToken() async {
-    String? _deviceToken;
+    String? deviceToken;
     if (Platform.isIOS) {
-      _deviceToken = await FirebaseMessaging.instance.getAPNSToken();
+      deviceToken = await FirebaseMessaging.instance.getAPNSToken();
     } else {
-      _deviceToken = await FirebaseMessaging.instance.getToken();
+      deviceToken = await FirebaseMessaging.instance.getToken();
     }
 
-    if (_deviceToken != null) {
-      log('--------Device Token---------- $_deviceToken');
+    if (deviceToken != null) {
+      log('--------Device Token---------- $deviceToken');
     }
-    return _deviceToken;
+    return deviceToken;
   }
 
   // Future<Either<ServerFailure, Response>> subscribeToTopic() async {
@@ -116,7 +116,6 @@ class AuthRepo {
           await dioClient.post(uri: EndPoints.resetPassword, data: {
         "email": email,
         "newPassword": password,
-        // "fcm_token": await saveDeviceToken()
       });
 
       if (response.statusCode == 200) {
@@ -130,14 +129,14 @@ class AuthRepo {
   }
 
   Future<Either<ServerFailure, Response>> change(
-      {required String password}) async {
+      {required String oldPassword, required String password}) async {
     try {
-      Response response = await dioClient.patch(
+      Response response = await dioClient.post(
           uri: EndPoints.changePassword(
               sharedPreferences.getString(AppStorageKey.userId)),
           data: {
-            "password": password,
-            // "fcm_token": await saveDeviceToken()
+            "oldPassword": oldPassword,
+            "newPassword": password,
           });
 
       if (response.statusCode == 200) {
@@ -156,7 +155,6 @@ class AuthRepo {
       Response response =
           await dioClient.post(uri: EndPoints.forgetPassword, data: {
         "email": mail,
-        // "fcm_token": await saveDeviceToken()
       });
 
       if (response.statusCode == 200) {

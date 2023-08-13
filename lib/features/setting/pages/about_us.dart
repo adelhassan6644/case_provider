@@ -1,17 +1,17 @@
-import 'package:casaProvider/app/core/utils/dimensions.dart';
-import 'package:casaProvider/app/localization/localization/language_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../../app/core/utils/dimensions.dart';
 import '../../../app/core/utils/images.dart';
 import '../../../app/core/utils/styles.dart';
 import '../../../app/core/utils/svg_images.dart';
 import '../../../app/core/utils/text_styles.dart';
+import '../../../app/localization/localization/language_constant.dart';
 import '../../../components/animated_widget.dart';
 import '../../../components/custom_app_bar.dart';
 import '../../../components/custom_images.dart';
 import '../../../components/custom_text_form_field.dart';
-import '../provider/setting_provider.dart';
+import '../provider/config_provider.dart';
 
 class AboutUs extends StatelessWidget {
   const AboutUs({Key? key}) : super(key: key);
@@ -26,7 +26,7 @@ class AboutUs extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               CustomAppBar(title: getTranslated("contact_with_us", context)),
-              Consumer<SettingProvider>(builder: (_, provider, child) {
+              Consumer<ConfigProvider>(builder: (_, provider, child) {
                 return !provider.isLoading
                     ? Container(
                         margin: EdgeInsets.symmetric(
@@ -74,7 +74,7 @@ class AboutUs extends StatelessWidget {
                                   padding: EdgeInsets.symmetric(vertical: 8.h),
                                   child: CustomTextFormField(
                                     controller: TextEditingController(
-                                        text: provider.model?.data?.phone),
+                                        text: provider.contact?.phone),
                                     // initialValue: provider.model?.data?.phone,
                                     pSvgIcon: SvgImages.phoneIcon,
                                     read: true,

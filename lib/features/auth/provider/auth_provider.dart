@@ -15,16 +15,14 @@ import '../../../app/localization/localization/language_constant.dart';
 
 class AuthProvider extends ChangeNotifier {
   final AuthRepo authRepo;
-  AuthProvider({
-    required this.authRepo,
-  }) {
+  AuthProvider({required this.authRepo}) {
     _mailTEC = TextEditingController(
         text: kDebugMode ? "adel@gmail.com" : authRepo.getMail());
   }
 
   bool get isLogin => authRepo.isLoggedIn();
 
-  late  TextEditingController _mailTEC;
+  late TextEditingController _mailTEC;
   TextEditingController get mailTEC => _mailTEC;
 
   final TextEditingController nameTEC = TextEditingController();
@@ -96,9 +94,10 @@ class AuthProvider extends ChangeNotifier {
             clean: true,
           );
         } else {
-          _mailTEC=TextEditingController(text:success.data['data']["email"] );
+          _mailTEC = TextEditingController(text: success.data['data']["email"]);
           CustomNavigator.push(Routes.VERIFICATION, arguments: true);
         }
+        clear();
       });
       _isLoading = false;
       notifyListeners();
@@ -138,7 +137,7 @@ class AuthProvider extends ChangeNotifier {
                 message: getTranslated("your_password_reset_successfully",
                     CustomNavigator.navigatorState.currentContext!),
                 isFloating: true,
-                backgroundColor: Styles.IN_ACTIVE,
+                backgroundColor: Styles.ACTIVE,
                 borderColor: Colors.transparent));
         clear();
       });
@@ -162,8 +161,9 @@ class AuthProvider extends ChangeNotifier {
     try {
       _isChange = true;
       notifyListeners();
-      Either<ServerFailure, Response> response =
-          await authRepo.change(password: passwordTEC.text.trim());
+      Either<ServerFailure, Response> response = await authRepo.change(
+          oldPassword: currentPasswordTEC.text.trim(),
+          password: passwordTEC.text.trim());
       response.fold((fail) {
         CustomSnackBar.showSnackBar(
             notification: AppNotification(
@@ -181,7 +181,6 @@ class AuthProvider extends ChangeNotifier {
                 backgroundColor: Styles.ACTIVE,
                 borderColor: Colors.transparent));
         clear();
-        CustomNavigator.pop();
         notifyListeners();
       });
       _isChange = false;
@@ -312,6 +311,7 @@ class AuthProvider extends ChangeNotifier {
             Routes.DASHBOARD,
             clean: true,
           );
+          clear();
           CustomSnackBar.showSnackBar(
               notification: AppNotification(
                   message: getTranslated("register_successfully",
@@ -325,7 +325,6 @@ class AuthProvider extends ChangeNotifier {
             replace: true,
           );
         }
-        clear();
       });
       _isVerify = false;
       notifyListeners();

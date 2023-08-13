@@ -1,5 +1,4 @@
 import 'package:casaProvider/app/core/utils/styles.dart';
-import 'package:casaProvider/components/animated_widget.dart';
 import 'package:casaProvider/features/home/provider/home_provider.dart';
 import 'package:flutter/material.dart';
 import '../../../data/config/di.dart';
