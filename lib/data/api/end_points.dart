@@ -19,9 +19,9 @@ class EndPoints {
   static getAddresses(id) => 'address/$id';
   static deleteAddress(id) => 'address/$id';
   static String addAddress = 'address';
-  static getNotifications(id) => 'notification/$id';
-  static readNotification(userId,id) => 'notification/read/$userId/$id';
-  static deleteNotification(userId,id) => 'notification/delete/$userId/$id';
+  static getNotifications(id) => 'worker/notification/$id';
+  static readNotification(userId,id) => 'worker/notification/read/$userId/$id';
+  static deleteNotification(userId,id) => 'worker/notification/delete/$userId/$id';
   static cancelReservation(id) => 'reservation/$id';
   static nextReservations(id) => 'worker/next/reservation/$id';
   static previousReservations(id) => 'worker/past/reservation/$id';

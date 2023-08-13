@@ -30,12 +30,10 @@ class _DashBoardState extends State<DashBoard> {
   Widget fragment(int index) {
     switch (index) {
       case 0:
-        return const Home();
-      case 1:
         return const Reservations();
-      case 2:
+      case 1:
         return const Profile();
-      case 3:
+      case 2:
         return const More();
       default:
         return Container();

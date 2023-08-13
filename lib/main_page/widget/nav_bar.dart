@@ -35,33 +35,25 @@ class NavBar extends StatelessWidget {
               children: [
                 Expanded(
                   child: BottomNavBarItem(
-                    svgIcon: SvgImages.homeIcon,
+                    svgIcon: SvgImages.tasks,
                     isSelected: provider.selectedIndex == 0,
                     onTap: () => provider.updateDashboardIndex(0),
-                    name: getTranslated("home", context),
-                  ),
-                ),
-                Expanded(
-                  child: BottomNavBarItem(
-                    svgIcon: SvgImages.tasks,
-                    isSelected: provider.selectedIndex == 1,
-                    onTap: () => provider.updateDashboardIndex(1),
                     name: getTranslated("my_appointments", context),
                   ),
                 ),
                 Expanded(
                   child: BottomNavBarItem(
                     svgIcon: SvgImages.profileIcon,
-                    isSelected: provider.selectedIndex == 2,
-                    onTap: () => provider.updateDashboardIndex(2),
+                    isSelected: provider.selectedIndex == 1,
+                    onTap: () => provider.updateDashboardIndex(1),
                     name: getTranslated("profile", context),
                   ),
                 ),
                 Expanded(
                   child: BottomNavBarItem(
                     svgIcon: SvgImages.moreIcon,
-                    isSelected: provider.selectedIndex == 3,
-                    onTap: () => provider.updateDashboardIndex(3),
+                    isSelected: provider.selectedIndex == 2,
+                    onTap: () => provider.updateDashboardIndex(2),
                     name: getTranslated("more", context),
                   ),
                 ),

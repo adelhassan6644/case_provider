@@ -17,7 +17,7 @@ import '../../features/product_details/provider/product_details_provider.dart';
 import '../../features/product_details/repo/product_details_repo.dart';
 import '../../features/profile/provider/profile_provider.dart';
 import '../../features/profile/repo/profile_repo.dart';
-import '../../features/setting/provider/setting_provider.dart';
+import '../../features/setting/provider/config_provider.dart';
 import '../../features/setting/repo/setting_repo.dart';
 import '../../main_page/provider/main_page_provider.dart';
 import '../api/end_points.dart';
@@ -77,7 +77,7 @@ Future<void> init() async {
       () => NotificationsProvider(notificationsRepo: sl()));
   sl.registerLazySingleton(() => ProfileProvider(profileRepo: sl()));
   sl.registerLazySingleton(() => MapProvider(mapRepo: sl()));
-  sl.registerLazySingleton(() => SettingProvider(repo: sl()));
+  sl.registerLazySingleton(() => ConfigProvider(repo: sl()));
 
   // External
   final sharedPreferences = await SharedPreferences.getInstance();
