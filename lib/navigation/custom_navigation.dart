@@ -55,7 +55,7 @@ abstract class CustomNavigator {
         return _pageRoute(
             Verification(fromRegister: settings.arguments as bool));
 
-      case Routes.PICK_LOCATION:
+      case Routes.LOCATION:
         return _pageRoute(MapPage(
             baseModel: settings.arguments != null
                 ? settings.arguments as BaseModel

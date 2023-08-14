@@ -10,7 +10,7 @@ class Routes {
   static const DASHBOARD = "DASHBOARD";
   static const CHANGE_PASSWORD = "CHANGE_PASSWORD";
   static const EDIT_PROFILE = "EDIT_PROFILE";
-  static const PICK_LOCATION = "PICK_LOCATION";
+  static const LOCATION = "LOCATION";
   static const SESSION_DETAILS = "SESSION_DETAILS";
   static const NOTIFICATIONS = "NOTIFICATIONS";
   static const ABOUT_US = "ABOUT_US";
