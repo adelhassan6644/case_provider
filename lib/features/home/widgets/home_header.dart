@@ -60,11 +60,13 @@ class _HomeHeaderState extends State<HomeHeader> {
           SizedBox(
             height: 16.h,
           ),
-          Text(
-            "${getTranslated("your_upcoming_appointments", context)} (${0})",
-            style: AppTextStyles.medium
-                .copyWith(fontSize: 18, color: Styles.PRIMARY_COLOR),
-          ),
+          Consumer<HomeProvider>(builder: (_, provider, child) {
+            return Text(
+              "${getTranslated("your_upcoming_appointments", context)} (${provider.sessions.length})",
+              style: AppTextStyles.medium
+                  .copyWith(fontSize: 18, color: Styles.PRIMARY_COLOR),
+            );
+          }),
         ],
       ),
     );

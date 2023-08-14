@@ -5,22 +5,29 @@ class ItemModel {
   String? subService;
   DateTime? date;
   String? address;
+  String? lat;
+  String? long;
 
-  ItemModel(
-      {this.id,
-      this.image,
-      this.service,
-      this.subService,
-      this.date,
-      this.address});
+  ItemModel({
+    this.id,
+    this.image,
+    this.service,
+    this.subService,
+    this.date,
+    this.address,
+    this.lat,
+    this.long,
+  });
 
   ItemModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     image = json['image'];
     service = json['service'];
     subService = json['subService'];
-    date = json['date']??DateTime.now();
+    date = json['date'] ?? DateTime.now();
     address = json['address'];
+    lat = json['lat'];
+    long = json['long'];
   }
 
   Map<String, dynamic> toJson() {

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8344f4d2-feb8-4e71-af36-f0fd63510214" name="Changes" comment="updates">
-      <change beforePath="$PROJECT_DIR$/lib/features/home/widgets/session_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/home/widgets/session_card.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/custom_address_picker.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/custom_address_picker.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/home/page/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/home/page/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/home/provider/home_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/home/provider/home_provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/home/widgets/home_header.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/home/widgets/home_header.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/maps/page/map_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/maps/page/map_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/features/session_details/widgets/reservation_details_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/session_details/widgets/reservation_details_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_models/base_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_models/base_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_models/item_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_models/item_model.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692048164565</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updates">
+      <created>1692048242271</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692048242271</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

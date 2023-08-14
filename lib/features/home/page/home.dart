@@ -64,7 +64,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home> {
                         ),
                       ),
                     )
-                  : provider.reservations.isNotEmpty
+                  : provider.sessions.isNotEmpty
                       ? RefreshIndicator(
                           color: Styles.PRIMARY_COLOR,
                           onRefresh: () async {
@@ -80,9 +80,9 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home> {
                                   child: ListAnimator(
                                     controller: controller,
                                     data: List.generate(
-                                      provider.reservations.length,
+                                      provider.sessions.length,
                                       (index) => HomeSessionsCard(
-                                        product: provider.reservations[index],
+                                        product: provider.sessions[index],
                                       ),
                                     ),
                                   ),

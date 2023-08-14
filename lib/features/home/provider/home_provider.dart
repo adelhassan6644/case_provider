@@ -28,12 +28,12 @@ class HomeProvider extends ChangeNotifier {
     });
   }
 
-  List<ItemModel> reservations = [];
+  List<ItemModel> sessions = [];
   bool isLoading = false;
   getNextSessions() async {
     try {
       isLoading = true;
-      reservations = [];
+      sessions = [];
       notifyListeners();
       Either<ServerFailure, Response> response =
           await homeRepo.getNextSessions();
@@ -48,7 +48,7 @@ class HomeProvider extends ChangeNotifier {
         notifyListeners();
       }, (success) {
         if (success.data["data"] != null) {
-          reservations = List<ItemModel>.from(
+          sessions = List<ItemModel>.from(
               success.data["data"].map((x) => ItemModel.fromJson(x)));
         }
         isLoading = false;

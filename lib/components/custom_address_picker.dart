@@ -12,24 +12,28 @@ import 'marquee_widget.dart';
 
 class CustomAddressPicker extends StatelessWidget {
   const CustomAddressPicker(
-      {required this.hint, this.location, required this.onPicked, this.decoration, Key? key})
+      {required this.hint,
+      this.location,
+      required this.onPicked,
+      this.decoration,
+      Key? key})
       : super(key: key);
 
   final String hint;
   final LocationModel? location;
   final ValueChanged onPicked;
-  final  Decoration? decoration ;
+  final Decoration? decoration;
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
         CustomNavigator.push(Routes.PICK_LOCATION,
-            arguments: BaseModel(valueChanged: onPicked, object: location));
+            arguments: BaseModel(valueChanged: onPicked, location: location));
       },
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
-        decoration:decoration ,
+        decoration: decoration,
         child: Row(
           children: [
             Expanded(

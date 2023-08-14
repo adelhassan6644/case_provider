@@ -1,10 +1,12 @@
+import 'package:casaProvider/features/maps/models/location_model.dart';
+
 class BaseModel {
   void Function(dynamic)? valueChanged;
-  dynamic object;
+  LocationModel? location;
   bool? boolean;
   BaseModel({
     this.valueChanged,
-    this.object,
+    this.location,
     this.boolean,
   });
 }

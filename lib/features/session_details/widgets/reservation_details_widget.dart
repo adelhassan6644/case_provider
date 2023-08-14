@@ -1,11 +1,8 @@
 import 'package:casaProvider/app/core/utils/extensions.dart';
 import 'package:casaProvider/app/localization/localization/language_constant.dart';
-import 'package:casaProvider/main_models/base_model.dart';
+import 'package:casaProvider/features/session_details/widgets/payment_status.dart';
 import 'package:casaProvider/main_models/item_model.dart';
-import 'package:casaProvider/navigation/custom_navigation.dart';
-import 'package:casaProvider/navigation/routes.dart';
 import 'package:flutter/material.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
 import '../../../app/core/utils/styles.dart';
 import '../../../app/core/utils/dimensions.dart';
 import '../../../app/core/utils/svg_images.dart';
@@ -53,6 +50,9 @@ class SessionDetailsWidget extends StatelessWidget {
                           maxLines: 1,
                         ),
                       ),
+                      PaymentStatus(
+                        paid: true,
+                      )
                     ],
                   ),
                   SizedBox(
