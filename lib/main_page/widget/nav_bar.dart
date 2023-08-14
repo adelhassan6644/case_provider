@@ -35,10 +35,10 @@ class NavBar extends StatelessWidget {
               children: [
                 Expanded(
                   child: BottomNavBarItem(
-                    svgIcon: SvgImages.tasks,
+                    svgIcon: SvgImages.homeIcon,
                     isSelected: provider.selectedIndex == 0,
                     onTap: () => provider.updateDashboardIndex(0),
-                    name: getTranslated("my_appointments", context),
+                    name: getTranslated("dashboard", context),
                   ),
                 ),
                 Expanded(

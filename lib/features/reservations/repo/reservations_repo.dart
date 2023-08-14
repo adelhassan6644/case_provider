@@ -32,6 +32,7 @@ class ReservationsRepo {
     }
   }
 
+
   Future<Either<ServerFailure, Response>> getNextReservations() async {
     try {
       Response response = await dioClient.get(

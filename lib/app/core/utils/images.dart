@@ -10,5 +10,6 @@ class Images {
   static const String whatsApp = 'assets/images/whatsapp.png';
   static const String megaPhone = 'assets/images/mega_phone.png';
   static const String sad = 'assets/images/sad.png';
+  static const String alert = 'assets/images/alert.png';
   static const String emptyReservations = 'assets/images/empty_reservations.png';
 }

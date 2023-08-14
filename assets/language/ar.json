@@ -9,8 +9,9 @@
   "reset_password_header" : "إعادة تعيين كلمة المرور",
   "change_password_header" : "تغيير كلمة المرور",
   "signup_header" : "مرحبا بك في كاسا",
-  "welcome_description": "مرحبا, تسعدنا عودتك ",
+  "welcome_description": "مرحبا بك في كاسا سبا ",
   "mail": "البريد الإلكتروني",
+  "your_upcoming_appointments": "مواعيدك القادمة",
   "change_password": "تغير كلمة المرور",
   "you_must_change_something": "عفوًا! يجب عليك تغيير شيء",
   "your_profile_successfully_updated": "تم تحديث الملف الشخصي بنجاح",
@@ -113,7 +114,7 @@
   "confirm_delete": "عند الضغط على \"أجل, أوافق\" فأنت توافق على حذف العنوان الخاصة بك",
   "delete_address": "حذف العنوان",
   "cancellation_terms": "شروط إلغاء",
-  "yes_accept": "أجل, أوافق",
+  "yes_end": "أجل, إنهاء",
   "no_back_off": "لا, العودة",
   "back":"العودة",
   "session_cancelled": "تم إلغاء جلستك",
@@ -121,13 +122,15 @@
   "please_wait": "برجاء الإنتظار",
   "there_is_no_addresses": "لا يوجد عنواين",
   "empty_next_reservations_title": "ليس لديك جلسات قادمة",
-  "empty_next_reservations_description": "تابع التصفح وقم بحجز جلسة جديدة لتجدها هنا" ,
+  "empty_next_reservations_description": "تابعنا وكن في الانتظار" ,
   "empty_previous_reservations_title": "ليس لديك جلسات سابقة",
   "empty_previous_reservations_description": "تابع التصفح وقم بحجز جلسة جديدة",
   "continue_browsing": "متابعة التصفح",
   "reservation_cancel_successfully": "تم إلغاء الحجز بنجاح",
   "delete": "حذف",
   "are_you_want_to_delete_your_address": "هل تريد حذف عنوانك ؟",
-  "address_deleted_successfully": "تم حذف العنوان بنجاح"
+  "address_deleted_successfully": "تم حذف العنوان بنجاح",
+  "end_session": "انهاء الجلسة",
+  "are_you_sure_to_end_the_session": "هل انت متأكد من انهاء الجلسة؟"
 
 }

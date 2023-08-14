@@ -8,7 +8,9 @@ import 'package:casaProvider/navigation/routes.dart';
 import 'package:provider/provider.dart';
 import '../../../app/core/utils/svg_images.dart';
 import '../../../app/localization/localization/language_constant.dart';
+import '../../../data/config/di.dart';
 import '../../../main_page/provider/main_page_provider.dart';
+import '../../notifications/provider/notifications_provider.dart';
 import '../widgets/more_button.dart';
 import '../widgets/profile_card.dart';
 
@@ -33,7 +35,10 @@ class More extends StatelessWidget {
                   MoreButton(
                     title: getTranslated("notifications", context),
                     icon: SvgImages.notifications,
-                    onTap: () => CustomNavigator.push(Routes.NOTIFICATIONS),
+                    onTap: () {
+                      sl<NotificationsProvider>().getNotifications();
+                      CustomNavigator.push(Routes.NOTIFICATIONS);
+                    },
                   ),
                   MoreButton(
                     title: getTranslated("change_password", context),

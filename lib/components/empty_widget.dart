@@ -1,9 +1,9 @@
-import 'package:casaProvider/app/core/utils/styles.dart';
 import 'package:casaProvider/app/core/utils/dimensions.dart';
-import 'package:casaProvider/components/custom_button.dart';
 import 'package:flutter/cupertino.dart';
 import '../app/core/utils/images.dart';
+import '../app/core/utils/styles.dart';
 import '../app/core/utils/svg_images.dart';
+import 'custom_button.dart';
 import 'custom_images.dart';
 
 class EmptyState extends StatelessWidget {
@@ -11,7 +11,6 @@ class EmptyState extends StatelessWidget {
   final double? imgHeight;
   final double? emptyHeight;
   final double? imgWidth;
-  final bool isSvg;
   final double? spaceBtw;
   final String? txt;
   final String? subText;
@@ -23,7 +22,6 @@ class EmptyState extends StatelessWidget {
     Key? key,
     this.emptyHeight,
     this.spaceBtw,
-    this.isSvg = true,
     this.originalButton = true,
     this.img,
     this.imgHeight,
@@ -40,24 +38,17 @@ class EmptyState extends StatelessWidget {
       child: Center(
         child: Column(
           children: [
-            !isSvg
-                ? customImageIcon(
-                    imageName: img ?? Images.logo,
-                    width: imgWidth ?? 200,
-                    height:
-                        imgHeight ?? 130) //width: MediaQueryHelper.width*.8,),
-                : customImageIconSVG(
-                    imageName: img ?? SvgImages.appLogo,
-                    width: imgWidth ?? 200,
-                    height: imgHeight ?? 150,
-                    color: Styles.PRIMARY_COLOR),
+            customImageIcon(
+                imageName: img ?? Images.logo,
+                width: imgWidth ?? 200,
+                height: imgHeight ?? 130),
             SizedBox(
-              height: spaceBtw ?? 12.h,
+              height: spaceBtw ?? 24.h,
             ),
             Text(txt ?? "لا يوجد بيانات !",
                 textAlign: TextAlign.center,
                 style: const TextStyle(
-                  fontSize: 16,
+                  fontSize: 18,
                   fontWeight: FontWeight.w600,
                   color: Styles.PRIMARY_COLOR,
                 )),

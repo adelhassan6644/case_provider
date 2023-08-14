@@ -8,7 +8,6 @@ import 'package:provider/provider.dart';
 import '../../../app/core/utils/app_strings.dart';
 import '../../../main_models/base_model.dart';
 import '../provider/map_provider.dart';
-import '../widget/location_widget.dart';
 
 class MapPage extends StatefulWidget {
   const MapPage({this.baseModel, Key? key}) : super(key: key);
@@ -89,19 +88,10 @@ class _MapPageState extends State<MapPage> {
           ),
 
           ///Confirm Location
-          Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              CustomAppBar(
-                title: getTranslated("pick_address", context),
-                colorBG: Styles.WHITE_COLOR,
-              ),
-              LocationCard(
-                valueChanged: widget.baseModel?.valueChanged,
-              ),
-            ],
+          CustomAppBar(
+            title: getTranslated("location", context),
+            colorBG: Styles.WHITE_COLOR,
           ),
-
           ///Select Location
           Center(
             child: !locationProvider.isLoading

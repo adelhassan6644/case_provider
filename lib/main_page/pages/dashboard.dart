@@ -22,7 +22,6 @@ class _DashBoardState extends State<DashBoard> {
   @override
   void initState() {
     NetworkInfo.checkConnectivity();
-    sl<HomeProvider>().getCategories();
     sl<ProfileProvider>().getProfile();
     super.initState();
   }
@@ -30,7 +29,7 @@ class _DashBoardState extends State<DashBoard> {
   Widget fragment(int index) {
     switch (index) {
       case 0:
-        return const Reservations();
+        return const Home();
       case 1:
         return const Profile();
       case 2:

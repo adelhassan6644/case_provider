@@ -13,12 +13,12 @@ import '../../features/maps/repo/map_repo.dart';
 import '../../features/reservations/provider/reservations_provider.dart';
 import '../../features/reservations/repo/reservations_repo.dart';
 import '../../features/notifications/provider/notifications_provider.dart';
-import '../../features/product_details/provider/product_details_provider.dart';
-import '../../features/product_details/repo/product_details_repo.dart';
 import '../../features/profile/provider/profile_provider.dart';
 import '../../features/profile/repo/profile_repo.dart';
+import '../../features/session_details/provider/session_details_provider.dart';
+import '../../features/session_details/repo/session_details_repo.dart';
 import '../../features/setting/provider/config_provider.dart';
-import '../../features/setting/repo/setting_repo.dart';
+import '../../features/setting/repo/config_repo.dart';
 import '../../main_page/provider/main_page_provider.dart';
 import '../api/end_points.dart';
 import '../network/network_info.dart';
@@ -58,9 +58,9 @@ Future<void> init() async {
   sl.registerLazySingleton(
       () => MapRepo(sharedPreferences: sl(), dioClient: sl()));
   sl.registerLazySingleton(
-      () => ProductDetailsRepo(sharedPreferences: sl(), dioClient: sl()));
+      () => SessionDetailsRepo(sharedPreferences: sl(), dioClient: sl()));
   sl.registerLazySingleton(
-      () => SettingRepo(sharedPreferences: sl(), dioClient: sl()));
+      () => ConfigRepo(sharedPreferences: sl(), dioClient: sl()));
 
 
   //provider
@@ -70,7 +70,7 @@ Future<void> init() async {
   sl.registerLazySingleton(() => MainPageProvider());
   sl.registerLazySingleton(() => SplashProvider(splashRepo: sl()));
   sl.registerLazySingleton(() => AuthProvider(authRepo: sl()));
-  sl.registerLazySingleton(() => ProductDetailsProvider(repo: sl()));
+  sl.registerLazySingleton(() => SessionDetailsProvider(repo: sl()));
   sl.registerLazySingleton(() => HomeProvider(homeRepo: sl()));
   sl.registerLazySingleton(() => ReservationsProvider(repo: sl()));
   sl.registerLazySingleton(

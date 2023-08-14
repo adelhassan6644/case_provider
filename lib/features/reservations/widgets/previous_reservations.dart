@@ -102,7 +102,6 @@ class _PreviousAppointmentsState extends State<PreviousAppointments> {
                                 img: Images.emptyReservations,
                                 imgHeight: 215.h,
                                 imgWidth: 215.w,
-                                isSvg: false,
                                 txt: getTranslated(
                                     "empty_previous_reservations_title",
                                     context),

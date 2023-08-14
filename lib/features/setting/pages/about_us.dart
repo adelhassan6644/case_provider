@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import '../../../app/core/utils/dimensions.dart';
 import '../../../app/core/utils/images.dart';
 import '../../../app/core/utils/styles.dart';

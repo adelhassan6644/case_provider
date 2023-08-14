@@ -1,7 +1,6 @@
 import 'package:casaProvider/features/auth/pages/change_password.dart';
 import 'package:casaProvider/features/auth/pages/reset_password.dart';
 import 'package:casaProvider/features/notifications/page/notifications_page.dart';
-import 'package:casaProvider/features/product_details/page/product_details.dart';
 import 'package:casaProvider/features/setting/pages/terms.dart';
 import 'package:casaProvider/main_models/base_model.dart';
 import 'package:casaProvider/main_page/pages/dashboard.dart';
@@ -12,6 +11,7 @@ import '../features/auth/pages/register.dart';
 import '../features/auth/pages/verification.dart';
 import '../features/maps/page/map_page.dart';
 import '../features/on_boarding/pages/on_boarding.dart';
+import '../features/session_details/page/session_details.dart';
 import '../features/setting/pages/about_us.dart';
 import '../features/splash/page/splash.dart';
 import '../main.dart';
@@ -61,8 +61,8 @@ abstract class CustomNavigator {
                 ? settings.arguments as BaseModel
                 : null));
 
-      case Routes.PRODUCT_DETAILS:
-        return _pageRoute(ProductDetails(id: settings.arguments as int));
+      case Routes.SESSION_DETAILS:
+        return _pageRoute(SessionDetails(id: settings.arguments as int));
 
       case Routes.ABOUT_US:
         return _pageRoute(const AboutUs());

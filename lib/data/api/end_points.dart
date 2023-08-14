@@ -9,7 +9,8 @@ class EndPoints {
   static const String logIn = 'worker/login';
   static const String register = 'worker';
   static const String forgetPassword = 'worker/resetPassword/email';
-  static const String checkMailForResetPassword = 'worker/resetPassword/checkCode';
+  static const String checkMailForResetPassword =
+      'worker/resetPassword/checkCode';
   static const String resetPassword = 'worker/resetPassword/newPassword';
   static changePassword(id) => 'client/$id';
   static const String resend = 'worker/email/verification';
@@ -20,17 +21,18 @@ class EndPoints {
   static deleteAddress(id) => 'address/$id';
   static String addAddress = 'address';
   static getNotifications(id) => 'worker/notification/$id';
-  static readNotification(userId,id) => 'worker/notification/read/$userId/$id';
-  static deleteNotification(userId,id) => 'worker/notification/delete/$userId/$id';
+  static readNotification(userId, id) => 'worker/notification/read/$userId/$id';
+  static deleteNotification(userId, id) => 'worker/notification/delete/$userId/$id';
   static cancelReservation(id) => 'reservation/$id';
   static nextReservations(id) => 'worker/next/reservation/$id';
+  static endReservations(id) => 'worker/end/reservation/$id';
   static previousReservations(id) => 'worker/past/reservation/$id';
   static const String postFavourite = 'favorite';
   static const String category = 'service';
   static const products = 'subService';
   static categoryProducts(id) => 'service/$id';
   static banners(id) => 'banners/$id';
-  static productDetails(id) => 'subService/$id';
+  static sessionDetails(id) => 'worker/reservation/$id';
 
   static const String feedBack = 'feedback';
   static const String setting = 'setting';
