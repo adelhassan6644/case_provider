@@ -11,8 +11,8 @@ import '../../../components/custom_images.dart';
 import '../../../components/custom_network_image.dart';
 
 class SessionDetailsWidget extends StatelessWidget {
-  final ItemModel item;
-  const SessionDetailsWidget({Key? key, required this.item}) : super(key: key);
+  final ItemModel model;
+  const SessionDetailsWidget({Key? key, required this.model}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class SessionDetailsWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             CustomNetworkImage.containerNewWorkImage(
-                image: item.image ?? "",
+                image: model.image ?? "",
                 width: context.width,
                 fit: BoxFit.fitWidth,
                 height: 250.h,
@@ -42,7 +42,7 @@ class SessionDetailsWidget extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Text(
-                          "جلسة ${item.service}",
+                          "${getTranslated("session", context)} ${model.service}",
                           style: AppTextStyles.bold.copyWith(
                               fontSize: 18,
                               overflow: TextOverflow.ellipsis,
@@ -51,7 +51,7 @@ class SessionDetailsWidget extends StatelessWidget {
                         ),
                       ),
                       PaymentStatus(
-                        paid: true,
+                        paid: model.paymentStatus == true,
                       )
                     ],
                   ),
@@ -86,7 +86,7 @@ class SessionDetailsWidget extends StatelessWidget {
                           ),
                           Expanded(
                             child: Text(
-                              item.address ?? "sdfw",
+                              model.address ?? "sdfw",
                               style: AppTextStyles.medium
                                   .copyWith(fontSize: 14, color: Colors.black),
                             ),
@@ -111,7 +111,7 @@ class SessionDetailsWidget extends StatelessWidget {
                               fontSize: 14,
                               color: Styles.DETAILS_COLOR)),
                       Expanded(
-                        child: Text(item.date!.dateFormat(format: "EEEE dd/MM"),
+                        child: Text(model.date!.dateFormat(format: "EEEE dd/MM"),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: AppTextStyles.medium.copyWith(
@@ -130,7 +130,7 @@ class SessionDetailsWidget extends StatelessWidget {
                               fontSize: 14,
                               color: Styles.DETAILS_COLOR)),
                       Expanded(
-                        child: Text(item.date!.dateFormat(format: "hh:mm aa"),
+                        child: Text(model.date!.dateFormat(format: "hh:mm aa"),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: AppTextStyles.medium.copyWith(

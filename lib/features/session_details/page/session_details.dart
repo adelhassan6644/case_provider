@@ -48,7 +48,7 @@ class _SessionDetailsState extends State<SessionDetails> {
               provider.isLoading
                   ? const _SessionDetailsWidgetShimmer()
                   : provider.model != null
-                      ? SessionDetailsWidget(item: provider.model!)
+                      ? SessionDetailsWidget(model: provider.model!)
                       : const EmptyState(),
 
               ///End Session

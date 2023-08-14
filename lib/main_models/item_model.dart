@@ -4,6 +4,7 @@ class ItemModel {
   String? service;
   String? subService;
   DateTime? date;
+  bool? paymentStatus;
   String? address;
   String? lat;
   String? long;
@@ -11,6 +12,7 @@ class ItemModel {
   ItemModel({
     this.id,
     this.image,
+    this.paymentStatus,
     this.service,
     this.subService,
     this.date,
@@ -22,6 +24,7 @@ class ItemModel {
   ItemModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     image = json['image'];
+    paymentStatus = json['payment_status'] == 1 ? true : false;
     service = json['service'];
     subService = json['subService'];
     date = json['date'] ?? DateTime.now();
