@@ -15,7 +15,7 @@ Screenshots
 ![Toast Screenshots](toast_screenshots.jpg)
 
 
-Basic softwareCasaProviders
+Basic Examples
 ---------
 ```objc
 // basic usage
@@ -77,7 +77,7 @@ style.messageColor = [UIColor orangeColor];
 [self.view hideAllToasts];
 ```
     
-See the demo project for more softwareCasaProviders.
+See the demo project for more examples.
 
 Setup Instructions
 ------------------

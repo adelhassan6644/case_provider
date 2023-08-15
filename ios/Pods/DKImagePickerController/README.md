@@ -209,13 +209,13 @@ self.view.addSubview(pickerView)
 
 <img width="30%" height="30%" src="https://raw.githubusercontent.com/zhangao0086/DKImagePickerController/develop/Screenshot6.png" />
 
-For softwareCasaProvider, see [CustomUIDelegate](https://github.com/zhangao0086/DKImagePickerController/tree/develop/softwareCasaProvider/DKImagePickerControllerDemo/CustomUIDelegate).
+For example, see [CustomUIDelegate](https://github.com/zhangao0086/DKImagePickerController/tree/develop/Example/DKImagePickerControllerDemo/CustomUIDelegate).
 
 ## Customizable Layout
 
 <img width="30%" height="30%" src="https://raw.githubusercontent.com/zhangao0086/DKImagePickerController/develop/Screenshot10.png" />
 
-For softwareCasaProvider, see [CustomLayoutUIDelegate](https://github.com/zhangao0086/DKImagePickerController/tree/develop/softwareCasaProvider/DKImagePickerControllerDemo/CustomLayoutUIDelegate).
+For example, see [CustomLayoutUIDelegate](https://github.com/zhangao0086/DKImagePickerController/tree/develop/Example/DKImagePickerControllerDemo/CustomLayoutUIDelegate).
 
 ### Conforms UIAppearance protocol
 
@@ -314,7 +314,7 @@ extension DKAsset {
 }
 ```
 
-For softwareCasaProvider, see `Export automatically` and `Export manually`.
+For example, see `Export automatically` and `Export manually`.
 
 ## Extensions
 This picker uses `DKImageExtensionController` manages all extensions, you can register it with a `DKImageBaseExtension` and a specified `DKImageExtensionType` to customize `camera`, `photo gallery` and `photo editor`:
@@ -345,7 +345,7 @@ let didFinishCapturingImage = extraInfo["didFinishCapturingImage"] as? ((UIImage
 let didCancel = extraInfo["didCancel"] as? (() -> Void)
 ```
 
-For a custom camera softwareCasaProvider, see [CustomCameraExtension](https://github.com/zhangao0086/DKImagePickerController/tree/develop/softwareCasaProvider/DKImagePickerControllerDemo/CustomCamera).
+For a custom camera example, see [CustomCameraExtension](https://github.com/zhangao0086/DKImagePickerController/tree/develop/Example/DKImagePickerControllerDemo/CustomCamera).
 
 ##### InlineCamera
 The `extraInfo` is the same as for `Camera`.
