@@ -62,7 +62,7 @@ class _HomeHeaderState extends State<HomeHeader> {
           ),
           Consumer<HomeProvider>(builder: (_, provider, child) {
             return Text(
-              "${getTranslated("your_upcoming_appointments", context)} (${provider.sessions.length})",
+              "${getTranslated("your_upcoming_appointments", context)} (${provider.sessions.isEmpty ? "..." : provider.sessions.length})",
               style: AppTextStyles.medium
                   .copyWith(fontSize: 18, color: Styles.PRIMARY_COLOR),
             );

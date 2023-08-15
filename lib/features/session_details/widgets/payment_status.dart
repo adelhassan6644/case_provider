@@ -29,8 +29,8 @@ class PaymentStatus extends StatelessWidget {
               paid
                   ? getTranslated("paid", context)
                   : getTranslated("unpaid", context),
-              style: AppTextStyles.regular.copyWith(
-                  color:  Styles.DETAILS_COLOR, fontSize: 12),
+              style: AppTextStyles.medium
+                  .copyWith(color: Styles.DETAILS_COLOR, fontSize: 14),
             )),
       ),
     );

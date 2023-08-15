@@ -13,7 +13,7 @@ import '../../../components/empty_widget.dart';
 import '../../../data/config/di.dart';
 import '../provider/session_details_provider.dart';
 import '../widgets/end_session_dialog.dart';
-import '../widgets/reservation_details_widget.dart';
+import '../widgets/session_details_widget.dart';
 
 class SessionDetails extends StatefulWidget {
   final int id;
@@ -98,59 +98,79 @@ class _SessionDetailsWidgetShimmer extends StatelessWidget {
               width: context.width,
               radius: 30,
             ),
-            Expanded(
+            Padding(
+              padding: EdgeInsets.symmetric(
+                  horizontal: Dimensions.PADDING_SIZE_DEFAULT.w,
+                  vertical: Dimensions.PADDING_SIZE_DEFAULT.h),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  ///Session Name
+                  const Row(
+                    children: [
+                      CustomShimmerContainer(
+                        width: 200,
+                        height: 16,
+                      ),
+                      Spacer(),
+                      CustomShimmerContainer(
+                        width: 100,
+                        height: 16,
+                      ),
+                    ],
+                  ),
+                  SizedBox(
+                    height: 12.h,
+                  ),
+
+                  ///Location
                   Padding(
-                    padding: EdgeInsets.symmetric(
-                        vertical: Dimensions.PADDING_SIZE_SMALL.h),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                    padding: EdgeInsets.symmetric(vertical: 16.h),
+                    child: const CustomShimmerContainer(
+                      width: 100,
+                      height: 16,
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(bottom: 12.h),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         const CustomShimmerContainer(
-                          width: 150,
-                          height: 30,
+                          width: 20,
+                          height: 20,
                         ),
-                        Padding(
-                          padding: EdgeInsets.symmetric(vertical: 6.h),
-                          child: const CustomShimmerContainer(
-                            width: 150,
-                            height: 30,
+                        SizedBox(
+                          width: 8.w,
+                        ),
+                        const Expanded(
+                          child: CustomShimmerContainer(
+                            height: 16,
                           ),
                         ),
-                        ...List.generate(
-                          5,
-                          (index) => Padding(
-                            padding: EdgeInsets.symmetric(vertical: 2.h),
-                            child: CustomShimmerContainer(
-                              width: context.width,
-                              height: 15,
-                            ),
-                          ),
-                        )
                       ],
                     ),
                   ),
-                  SizedBox(
-                    height: 184.h,
-                    child: Center(
-                      child: ListView.builder(
-                        physics: const BouncingScrollPhysics(),
-                        scrollDirection: Axis.horizontal,
-                        itemCount: 5,
-                        itemBuilder: (c, index) => Padding(
-                          padding: EdgeInsets.only(
-                              right: index == 0 ? 24.w : 0, left: 12.w),
-                          child: CustomShimmerContainer(
-                            width: 100.w,
-                            height: 150.h,
-                            radius: 8,
-                          ),
-                        ),
-                      ),
+
+                  ///Date
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 16.h),
+                    child: const CustomShimmerContainer(
+                      width: 100,
+                      height: 16,
                     ),
-                  )
+                  ),
+                  CustomShimmerContainer(
+                    width: context.width * 0.6,
+                    height: 16,
+                  ),
+                  SizedBox(
+                    height: 12.h,
+                  ),
+                  CustomShimmerContainer(
+                    width: context.width * 0.6,
+                    height: 16,
+                  ),
                 ],
               ),
             ),

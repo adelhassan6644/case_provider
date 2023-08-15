@@ -38,12 +38,12 @@ class _MapPageState extends State<MapPage> {
   }
 
   getInitialPosition() {
-    if (widget.baseModel?.location != null) {
+    if (widget.baseModel?.lat != null&&widget.baseModel?.long != null) {
       _initialPosition = LatLng(
           double.parse(
-              widget.baseModel?.location?.latitude ?? AppStrings.defaultLat),
+              widget.baseModel?.lat ?? AppStrings.defaultLat),
           double.parse(
-              widget.baseModel?.location?.longitude ?? AppStrings.defaultLong));
+              widget.baseModel?.long ?? AppStrings.defaultLong));
       _mapController!.animateCamera(CameraUpdate.newCameraPosition(
         CameraPosition(target: _initialPosition, zoom: 192),
       ));
@@ -70,7 +70,7 @@ class _MapPageState extends State<MapPage> {
             myLocationButtonEnabled: false,
             onMapCreated: (GoogleMapController mapController) {
               _mapController = mapController;
-              if (widget.baseModel?.location == null) {
+              if (widget.baseModel?.lat == null) {
                 locationProvider.getLocation(false,
                     mapController: _mapController!);
               }
@@ -88,9 +88,12 @@ class _MapPageState extends State<MapPage> {
           ),
 
           ///app bar
-          CustomAppBar(
-            title: getTranslated("location", context),
-            colorBG: Styles.WHITE_COLOR,
+          Align(
+            alignment: Alignment.topCenter,
+            child: CustomAppBar(
+              title: getTranslated("location", context),
+              colorBG: Styles.WHITE_COLOR,
+            ),
           ),
 
           ///Select Location

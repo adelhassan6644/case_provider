@@ -3,6 +3,7 @@ import 'package:casaProvider/app/localization/localization/language_constant.dar
 import 'package:casaProvider/features/session_details/widgets/payment_status.dart';
 import 'package:casaProvider/main_models/item_model.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../../../app/core/utils/styles.dart';
 import '../../../app/core/utils/dimensions.dart';
 import '../../../app/core/utils/svg_images.dart';
@@ -30,9 +31,10 @@ class SessionDetailsWidget extends StatelessWidget {
                 fit: BoxFit.fitWidth,
                 height: 250.h,
                 radius: 30),
+
+            ///Details
             Padding(
               padding: EdgeInsets.symmetric(
-                  horizontal: Dimensions.PADDING_SIZE_DEFAULT.w,
                   vertical: Dimensions.PADDING_SIZE_DEFAULT.h),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -51,12 +53,20 @@ class SessionDetailsWidget extends StatelessWidget {
                         ),
                       ),
                       PaymentStatus(
-                        paid: model.paymentStatus == true,
+                        paid: model.paid == true,
                       )
                     ],
                   ),
-                  SizedBox(
-                    height: 12.h,
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 8.h),
+                    child: Text(
+                      model.subService ?? "",
+                      style: AppTextStyles.medium.copyWith(
+                          fontSize: 16,
+                          overflow: TextOverflow.ellipsis,
+                          color: Styles.PRIMARY_COLOR),
+                      maxLines: 1,
+                    ),
                   ),
 
                   ///Location
@@ -66,6 +76,7 @@ class SessionDetailsWidget extends StatelessWidget {
                         style: AppTextStyles.semiBold.copyWith(
                             height: 1, fontSize: 18, color: Styles.TITLE)),
                   ),
+
                   Padding(
                     padding: EdgeInsets.only(bottom: 12.h),
                     child: InkWell(
@@ -73,6 +84,10 @@ class SessionDetailsWidget extends StatelessWidget {
                       highlightColor: Colors.transparent,
                       hoverColor: Colors.transparent,
                       splashColor: Colors.transparent,
+                      onTap: () async {
+                        await launch(
+                            'https://maps.google.com/maps?q=${model.lat}%2C${model.long}&z=17&hl=ar');
+                      },
                       child: Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
@@ -111,7 +126,8 @@ class SessionDetailsWidget extends StatelessWidget {
                               fontSize: 14,
                               color: Styles.DETAILS_COLOR)),
                       Expanded(
-                        child: Text(model.date!.dateFormat(format: "EEEE dd/MM"),
+                        child: Text(
+                            model.startTime!.dateFormat(format: "EEEE dd/MM"),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: AppTextStyles.medium.copyWith(
@@ -130,7 +146,8 @@ class SessionDetailsWidget extends StatelessWidget {
                               fontSize: 14,
                               color: Styles.DETAILS_COLOR)),
                       Expanded(
-                        child: Text(model.date!.dateFormat(format: "hh:mm aa"),
+                        child: Text(
+                            model.startTime!.dateFormat(format: "hh:mm aa"),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: AppTextStyles.medium.copyWith(

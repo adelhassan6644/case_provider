@@ -20,18 +20,17 @@ class EndPoints {
   static getAddresses(id) => 'address/$id';
   static deleteAddress(id) => 'address/$id';
   static String addAddress = 'address';
+
+  /// Notifications
   static getNotifications(id) => 'worker/notification/$id';
   static readNotification(userId, id) => 'worker/notification/read/$userId/$id';
   static deleteNotification(userId, id) => 'worker/notification/delete/$userId/$id';
+
+  /// Session
   static cancelReservation(id) => 'reservation/$id';
-  static nextReservations(id) => 'worker/next/reservation/$id';
   static endReservations(id) => 'worker/end/reservation/$id';
+  static nextReservations(id) => 'worker/next/reservation/$id';
   static previousReservations(id) => 'worker/past/reservation/$id';
-  static const String postFavourite = 'favorite';
-  static const String category = 'service';
-  static const products = 'subService';
-  static categoryProducts(id) => 'service/$id';
-  static banners(id) => 'banners/$id';
   static sessionDetails(id) => 'worker/reservation/$id';
 
   static const String feedBack = 'feedback';
