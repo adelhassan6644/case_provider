@@ -21,8 +21,7 @@ class HomeRepo {
   Future<Either<ServerFailure, Response>> getNextSessions() async {
     try {
       Response response = await dioClient.get(
-          uri: EndPoints.nextReservations(
-              sharedPreferences.getString(AppStorageKey.userId)));
+          uri: EndPoints.nextReservations(1));
       if (response.statusCode == 200) {
         return Right(response);
       } else {

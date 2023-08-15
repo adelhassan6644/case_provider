@@ -18,8 +18,7 @@ class ProfileRepo {
     return sharedPreferences.containsKey(AppStorageKey.isLogin);
   }
 
-  Future<Either<ServerFailure, Response>> updateProfile(
-      {required dynamic body}) async {
+  Future<Either<ServerFailure, Response>> updateProfile({required dynamic body}) async {
     try {
       Response response = await dioClient.post(
           uri: EndPoints.updateProfile(

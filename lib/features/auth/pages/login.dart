@@ -160,43 +160,43 @@ class _LoginState extends State<Login> {
                                                 },
                                                 isLoading: provider.isLoading),
                                           ),
-                                          Row(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.center,
-                                            children: [
-                                              Text(
-                                                getTranslated(
-                                                    "do_not_have_acc", context),
-                                                textAlign: TextAlign.end,
-                                                style: AppTextStyles.regular
-                                                    .copyWith(
-                                                        color:
-                                                            Styles.WHITE_COLOR,
-                                                        fontSize: 16,
-                                                        overflow: TextOverflow
-                                                            .ellipsis),
-                                              ),
-                                              InkWell(
-                                                onTap: () {
-                                                  CustomNavigator.push(
-                                                      Routes.REGISTER,
-                                                      clean: true);
-                                                  provider.clear();
-                                                },
-                                                child: Text(
-                                                  " ${getTranslated("signup", context)}",
-                                                  textAlign: TextAlign.start,
-                                                  style: AppTextStyles.bold
-                                                      .copyWith(
-                                                    color: Styles.PRIMARY_COLOR,
-                                                    overflow:
-                                                        TextOverflow.ellipsis,
-                                                    fontSize: 16,
-                                                  ),
-                                                ),
-                                              ),
-                                            ],
-                                          ),
+                                          // Row(
+                                          //   mainAxisAlignment:
+                                          //       MainAxisAlignment.center,
+                                          //   children: [
+                                          //     Text(
+                                          //       getTranslated(
+                                          //           "do_not_have_acc", context),
+                                          //       textAlign: TextAlign.end,
+                                          //       style: AppTextStyles.regular
+                                          //           .copyWith(
+                                          //               color:
+                                          //                   Styles.WHITE_COLOR,
+                                          //               fontSize: 16,
+                                          //               overflow: TextOverflow
+                                          //                   .ellipsis),
+                                          //     ),
+                                          //     InkWell(
+                                          //       onTap: () {
+                                          //         CustomNavigator.push(
+                                          //             Routes.REGISTER,
+                                          //             clean: true);
+                                          //         provider.clear();
+                                          //       },
+                                          //       child: Text(
+                                          //         " ${getTranslated("signup", context)}",
+                                          //         textAlign: TextAlign.start,
+                                          //         style: AppTextStyles.bold
+                                          //             .copyWith(
+                                          //           color: Styles.PRIMARY_COLOR,
+                                          //           overflow:
+                                          //               TextOverflow.ellipsis,
+                                          //           fontSize: 16,
+                                          //         ),
+                                          //       ),
+                                          //     ),
+                                          //   ],
+                                          // ),
                                         ],
                                       )),
                                   SizedBox(

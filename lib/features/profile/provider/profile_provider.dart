@@ -23,12 +23,12 @@ class ProfileProvider extends ChangeNotifier {
   TextEditingController emailTEC = TextEditingController();
   TextEditingController phoneTEC = TextEditingController();
 
-  int userType = 0;
-  List<String> usersTypes = ["male", "female"];
-  void selectedUserType(v) {
-    userType = v;
-    notifyListeners();
-  }
+  // int userType = 0;
+  // List<String> usersTypes = ["male", "female"];
+  // void selectedUserType(v) {
+  //   userType = v;
+  //   notifyListeners();
+  // }
 
   File? profileImage;
   onSelectImage(File? file) {
@@ -45,7 +45,8 @@ class ProfileProvider extends ChangeNotifier {
   }
 
   hasImage() {
-    if (profileImage != null || profileModel?.image != null) {
+    if (profileImage != null) {
+      // || profileModel?.image != null) {
       return true;
     } else {
       // showToast(getTranslated("please_select_profile_image",
@@ -64,24 +65,24 @@ class ProfileProvider extends ChangeNotifier {
 
   bool checkData(Map<String, dynamic> body) {
     return _boolCheckString(nameTEC.text.trim(), "name", body) ||
-        _boolCheckString(userType, "gender", body) ||
+        // _boolCheckString(userType, "gender", body) ||
         _boolCheckString(phoneTEC.text.trim(), "phone", body);
   }
 
   bool isUpdate = false;
   updateProfile() async {
     isUpdate = true;
+    notifyListeners();
     Map<String, dynamic> body = {
       "name": profileModel?.name,
       "phone": profileModel?.phone,
-      "email": profileModel?.email,
       "gender": profileModel?.gender,
     };
 
     if (checkData(body) || hasImage()) {
       if (profileImage != null) {
         body.addAll({
-          "photo": await MultipartFile.fromFile(profileImage!.path),
+          "photo": MultipartFile.fromFileSync(profileImage!.path),
         });
       }
       if (_boolCheckString(phoneTEC.text.trim(), "phone", body)) {
@@ -90,14 +91,14 @@ class ProfileProvider extends ChangeNotifier {
       if (_boolCheckString(nameTEC.text.trim(), "name", body)) {
         body["name"] = nameTEC.text.trim();
       }
-      if (_boolCheckString(userType, "gender", body)) {
-        body["gender"] = nameTEC.text.trim();
-      }
+      // if (_boolCheckString(userType, "gender", body)) {
+      //   body["gender"] = userType;
+      // }
 
       try {
         log(body.entries.toString());
         Either<ServerFailure, Response> response =
-            await profileRepo.updateProfile(body: body);
+            await profileRepo.updateProfile(body: FormData.fromMap(body));
         response.fold((fail) {
           CustomSnackBar.showSnackBar(
               notification: AppNotification(
@@ -105,12 +106,10 @@ class ProfileProvider extends ChangeNotifier {
                   isFloating: true,
                   backgroundColor: Styles.IN_ACTIVE,
                   borderColor: Colors.red));
-
-          // showToast(ApiErrorHandler.getMessage(fail));
           isUpdate = false;
           notifyListeners();
         }, (response) {
-          getProfile();
+          getProfile(withLoading: false);
           CustomSnackBar.showSnackBar(
               notification: AppNotification(
                   message: getTranslated("your_profile_successfully_updated",
@@ -145,25 +144,29 @@ class ProfileProvider extends ChangeNotifier {
   }
 
   bool isLoading = false;
-  getProfile() async {
+  getProfile({bool withLoading = true}) async {
     try {
-      isLoading = true;
+      if (withLoading) {
+        isLoading = true;
+      }
       notifyListeners();
 
       Either<ServerFailure, Response> response = await profileRepo.getProfile();
 
       response.fold((fail) {
         showToast(ApiErrorHandler.getMessage(fail));
-        isLoading = false;
-        notifyListeners();
       }, (response) {
         profileModel = ProfileModel.fromJson(response.data['data']);
         initProfileData();
-        isLoading = false;
-        notifyListeners();
       });
+      if (withLoading) {
+        isLoading = false;
+      }
+      notifyListeners();
     } catch (e) {
-      isLoading = false;
+      if (withLoading) {
+        isLoading = false;
+      }
       CustomSnackBar.showSnackBar(
           notification: AppNotification(
               message: e.toString(),
@@ -175,9 +178,10 @@ class ProfileProvider extends ChangeNotifier {
   }
 
   initProfileData() {
-    nameTEC.text = profileModel?.name ?? "";
-    emailTEC.text = profileModel?.email ?? "";
-    phoneTEC.text = profileModel?.phone ?? "";
-    userType = profileModel?.gender ?? 0;
+    profileImage = null;
+    nameTEC.text = profileModel?.name?.trim() ?? "";
+    emailTEC.text = profileModel?.email?.trim() ?? "";
+    phoneTEC.text = profileModel?.phone?.trim() ?? "";
+    // userType = profileModel?.gender ?? 0;
   }
 }

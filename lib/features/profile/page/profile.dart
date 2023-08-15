@@ -15,35 +15,35 @@ class Profile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<ProfileProvider>(builder: (_, provider, child) {
       return SafeArea(
-          bottom: true,
-          top: false,
-          child: Column(
-            children: [
-              Expanded(
-                  child: ListAnimator(
-                data: [
-                  Stack(
-                    alignment: Alignment.bottomRight,
-                    children: [
-                      Container(
-                        height: 160 + context.toPadding,
-                        width: context.width,
-                        margin: const EdgeInsets.only(bottom: 50),
-                        decoration: const BoxDecoration(
-                            image: DecorationImage(
-                                image: AssetImage(Images.profileBGImage),
-                                fit: BoxFit.cover)),
-                        child: const SizedBox(),
-                      ),
-                      const ProfileImageWidget(withEdit: true)
-                    ],
-                  ),
-                  const ProfileBody(),
-                  // const ChangePasswordButton()
-                ],
-              ))
-            ],
-          ));
+        bottom: true,
+        top: false,
+        child: Column(
+          children: [
+            Expanded(
+                child: ListAnimator(
+                  data: [
+                    Stack(
+                      alignment: Alignment.bottomRight,
+                      children: [
+                        Container(
+                          height: 160 + context.toPadding,
+                          width: context.width,
+                          margin: const EdgeInsets.only(bottom: 50),
+                          decoration: const BoxDecoration(
+                              image: DecorationImage(
+                                  image: AssetImage(Images.profileBGImage),
+                                  fit: BoxFit.cover)),
+                          child: const SizedBox(),
+                        ),
+                        const ProfileImageWidget(withEdit: true)
+                      ],
+                    ),
+                    const ProfileBody(),
+                  ],
+                ))
+          ],
+        )
+      );
     });
   }
 }

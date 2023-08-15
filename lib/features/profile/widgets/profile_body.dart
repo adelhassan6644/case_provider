@@ -1,3 +1,4 @@
+import 'package:casaProvider/components/shimmer/custom_shimmer.dart';
 import 'package:flutter/material.dart';
 import 'package:casaProvider/features/profile/provider/profile_provider.dart';
 import 'package:provider/provider.dart';
@@ -42,85 +43,158 @@ class ProfileBody extends StatelessWidget {
                   borderRadius: BorderRadius.circular(18),
                   color: Styles.WHITE_COLOR,
                   border: Border.all(color: Styles.LIGHT_BORDER_COLOR)),
-              child: Column(
-                children: [
-                  ///Name
-                  CustomTextFormField(
-                    controller: provider.nameTEC,
-                    hint: getTranslated("name", context),
-                    inputType: TextInputType.name,
-                    valid: Validations.name,
-                    pSvgIcon: SvgImages.userIcon,
-                  ),
-
-                  ///Gender
-                  Padding(
-                    padding:
-                        EdgeInsets.symmetric(vertical: 6.h, horizontal: 12.w),
-                    child: Row(
+              child: provider.isLoading
+                  ? const _ProfileBodyShimmer()
+                  : Column(
                       children: [
-                        Text(
-                          getTranslated("gender", context),
-                          style: AppTextStyles.medium.copyWith(
-                              fontSize: 18, color: Styles.PRIMARY_COLOR),
+                        ///Name
+                        CustomTextFormField(
+                          controller: provider.nameTEC,
+                          hint: getTranslated("name", context),
+                          inputType: TextInputType.name,
+                          valid: Validations.name,
+                          pSvgIcon: SvgImages.userIcon,
                         ),
+
+                        // ///Gender
+                        // Padding(
+                        //   padding: EdgeInsets.symmetric(
+                        //       vertical: 6.h, horizontal: 12.w),
+                        //   child: Row(
+                        //     children: [
+                        //       Text(
+                        //         getTranslated("gender", context),
+                        //         style: AppTextStyles.medium.copyWith(
+                        //             fontSize: 18, color: Styles.PRIMARY_COLOR),
+                        //       ),
+                        //       SizedBox(
+                        //         width: 24.w,
+                        //       ),
+                        //       ...List.generate(
+                        //           2,
+                        //           (index) => Expanded(
+                        //                 child: CustomRadioButton(
+                        //                   selectedColor: Styles.PRIMARY_COLOR,
+                        //                   check: provider.userType == index,
+                        //                   title: getTranslated(
+                        //                       provider.usersTypes[index],
+                        //                       context),
+                        //                   onChange: (v) {
+                        //                     if (v) {
+                        //                       provider.selectedUserType(index);
+                        //                     }
+                        //                   },
+                        //                 ),
+                        //               ))
+                        //     ],
+                        //   ),
+                        // ),
+
+                        ///Phone
+                        CustomTextFormField(
+                          controller: provider.phoneTEC,
+                          hint: getTranslated("phone_number", context),
+                          inputType: TextInputType.phone,
+                          valid: Validations.phone,
+                          pSvgIcon: SvgImages.phoneIcon,
+                        ),
+
+                        ///Mail
+                        CustomTextFormField(
+                          controller: provider.emailTEC,
+                          hint: getTranslated("mail", context),
+                          inputType: TextInputType.emailAddress,
+                          valid: Validations.mail,
+                          pSvgIcon: SvgImages.mailIcon,
+                          read: true,
+                          addBorder: true,
+                        ),
+
+                        ///To save Changes
                         SizedBox(
-                          width: 24.w,
+                          height: 24.h,
                         ),
-                        ...List.generate(
-                            2,
-                            (index) => Expanded(
-                                  child: CustomRadioButton(
-                                    selectedColor: Styles.PRIMARY_COLOR,
-                                    check: provider.userType == index,
-                                    title: getTranslated(
-                                        provider.usersTypes[index], context),
-                                    onChange: (v) {
-                                      if (v) {
-                                        provider.selectedUserType(index);
-                                      }
-                                    },
-                                  ),
-                                ))
+                        CustomButton(
+                          text: getTranslated("save_changes", context),
+                          onTap: () => provider.updateProfile(),
+                          isLoading: provider.isUpdate,
+                        )
                       ],
                     ),
-                  ),
-
-                  ///Phone
-                  CustomTextFormField(
-                    controller: provider.phoneTEC,
-                    hint: getTranslated("phone_number", context),
-                    inputType: TextInputType.phone,
-                    valid: Validations.phone,
-                    pSvgIcon: SvgImages.phoneIcon,
-                  ),
-
-                  ///Mail
-                  CustomTextFormField(
-                    controller: provider.emailTEC,
-                    hint: getTranslated("mail", context),
-                    inputType: TextInputType.emailAddress,
-                    valid: Validations.mail,
-                    pSvgIcon: SvgImages.mailIcon,
-                    read: true,
-                    addBorder: true,
-                  ),
-
-                  ///To save Changes
-                  SizedBox(
-                    height: 24.h,
-                  ),
-                  CustomButton(
-                    text: getTranslated("save_changes", context),
-                    onTap: () => provider.updateProfile(),
-                    isLoading: provider.isUpdate,
-                  )
-                ],
-              ),
             ),
           ],
         ),
       );
     });
+  }
+}
+
+class _ProfileBodyShimmer extends StatelessWidget {
+  const _ProfileBodyShimmer({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Padding(
+          padding: EdgeInsets.symmetric(vertical: 6.h),
+          child: const CustomShimmerContainer(
+            height: 60,
+            radius: 30,
+          ),
+        ),
+        Padding(
+          padding: EdgeInsets.symmetric(vertical: 6.h, horizontal: 12.w),
+          child: Row(
+            children: [
+              const CustomShimmerContainer(
+                width: 100,
+                height: 15,
+                radius: 30,
+              ),
+              SizedBox(
+                width: 24.w,
+              ),
+              const Expanded(
+                child: CustomShimmerContainer(
+                  height: 15,
+                  radius: 30,
+                ),
+              ),
+              SizedBox(
+                width: 24.w,
+              ),
+              const Expanded(
+                child: CustomShimmerContainer(
+                  height: 15,
+                  radius: 30,
+                ),
+              ),
+            ],
+          ),
+        ),
+        Padding(
+          padding: EdgeInsets.symmetric(vertical: 6.h),
+          child: const CustomShimmerContainer(
+            height: 60,
+            radius: 30,
+          ),
+        ),
+        Padding(
+          padding: EdgeInsets.symmetric(vertical: 6.h),
+          child: const CustomShimmerContainer(
+            height: 60,
+            radius: 30,
+          ),
+        ),
+        SizedBox(
+          height: 22.h,
+        ),
+        const CustomShimmerContainer(
+          height: 60,
+          radius: 30,
+        ),
+      ],
+    );
   }
 }
