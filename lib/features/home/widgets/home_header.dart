@@ -1,8 +1,6 @@
-import 'package:casaProvider/app/core/utils/extensions.dart';
 import 'package:casaProvider/app/core/utils/svg_images.dart';
 import 'package:casaProvider/app/localization/localization/language_constant.dart';
 import 'package:casaProvider/components/custom_images.dart';
-import 'package:casaProvider/components/shimmer/custom_shimmer.dart';
 import 'package:casaProvider/features/home/provider/home_provider.dart';
 import 'package:casaProvider/navigation/custom_navigation.dart';
 import 'package:flutter/material.dart';
@@ -10,11 +8,8 @@ import 'package:casaProvider/app/core/utils/styles.dart';
 import 'package:casaProvider/app/core/utils/dimensions.dart';
 import 'package:casaProvider/app/core/utils/text_styles.dart';
 import 'package:provider/provider.dart';
-import '../../../components/marquee_widget.dart';
-import '../../../components/tab_widget.dart';
 import '../../../data/config/di.dart';
 import '../../../navigation/routes.dart';
-import '../../maps/provider/map_provider.dart';
 import '../../notifications/provider/notifications_provider.dart';
 
 class HomeHeader extends StatefulWidget {
@@ -62,7 +57,7 @@ class _HomeHeaderState extends State<HomeHeader> {
           ),
           Consumer<HomeProvider>(builder: (_, provider, child) {
             return Text(
-              "${getTranslated("your_upcoming_appointments", context)} (${provider.sessions.isEmpty ? "..." : provider.sessions.length})",
+              "${getTranslated("your_upcoming_appointments", context)} (${provider.isLoading ? "..." : provider.sessions.length})",
               style: AppTextStyles.medium
                   .copyWith(fontSize: 18, color: Styles.PRIMARY_COLOR),
             );
