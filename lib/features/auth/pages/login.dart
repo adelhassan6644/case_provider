@@ -160,6 +160,8 @@ class _LoginState extends State<Login> {
                                                 },
                                                 isLoading: provider.isLoading),
                                           ),
+
+                                          ///Sign up
                                           // Row(
                                           //   mainAxisAlignment:
                                           //       MainAxisAlignment.center,

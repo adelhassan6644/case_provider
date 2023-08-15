@@ -89,10 +89,7 @@ class AuthProvider extends ChangeNotifier {
         authRepo.saveUserId(success.data['data']["id"]);
         if (success.data['data']["email_verified_at"] != null) {
           authRepo.setLoggedIn();
-          CustomNavigator.push(
-            Routes.DASHBOARD,
-            clean: true,
-          );
+          CustomNavigator.push(Routes.DASHBOARD, clean: true, arguments: 0);
         } else {
           _mailTEC = TextEditingController(text: success.data['data']["email"]);
           CustomNavigator.push(Routes.VERIFICATION, arguments: true);
@@ -307,10 +304,7 @@ class AuthProvider extends ChangeNotifier {
       }, (success) {
         if (fromRegister) {
           authRepo.setLoggedIn();
-          CustomNavigator.push(
-            Routes.DASHBOARD,
-            clean: true,
-          );
+          CustomNavigator.push(Routes.DASHBOARD, clean: true, arguments: 0);
           clear();
           CustomSnackBar.showSnackBar(
               notification: AppNotification(
