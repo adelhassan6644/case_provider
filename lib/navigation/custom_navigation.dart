@@ -9,7 +9,6 @@ import '../features/auth/pages/forget_password.dart';
 import '../features/auth/pages/login.dart';
 import '../features/auth/pages/register.dart';
 import '../features/auth/pages/verification.dart';
-import '../features/maps/page/map_page.dart';
 import '../features/on_boarding/pages/on_boarding.dart';
 import '../features/session_details/page/session_details.dart';
 import '../features/setting/pages/about_us.dart';
@@ -55,11 +54,6 @@ abstract class CustomNavigator {
         return _pageRoute(
             Verification(fromRegister: settings.arguments as bool));
 
-      case Routes.LOCATION:
-        return _pageRoute(MapPage(
-            baseModel: settings.arguments != null
-                ? settings.arguments as BaseModel
-                : null));
 
       case Routes.SESSION_DETAILS:
         return _pageRoute(SessionDetails(id: settings.arguments as int));

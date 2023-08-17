@@ -1,4 +1,3 @@
-import 'package:casaProvider/features/maps/provider/map_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 import 'package:casaProvider/data/config/di.dart' as di;
@@ -26,9 +25,7 @@ abstract class ProviderList {
     ChangeNotifierProvider(create: (_) => di.sl<HomeProvider>()),
     ChangeNotifierProvider(create: (_) => di.sl<ReservationsProvider>()),
     ChangeNotifierProvider(create: (_) => di.sl<NotificationsProvider>()),
-    ChangeNotifierProvider(create: (_) => di.sl<MapProvider>()),
     ChangeNotifierProvider(create: (_) => di.sl<SessionDetailsProvider>()),
-    ChangeNotifierProvider(create: (_) => di.sl<MapProvider>()),
     ChangeNotifierProvider(create: (_) => di.sl<ConfigProvider>()),
   ];
 }

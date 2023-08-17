@@ -1,7 +1,6 @@
 import 'package:casaProvider/features/notifications/repo/notifications_repo.dart';
 import 'package:dio/dio.dart';
 import 'package:casaProvider/features/home/repo/home_repo.dart';
-import 'package:casaProvider/features/maps/provider/map_provider.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../app/localization/provider/language_provider.dart';
@@ -9,7 +8,6 @@ import '../../app/localization/provider/localization_provider.dart';
 import '../../app/theme/theme_provider/theme_provider.dart';
 import '../../features/auth/provider/auth_provider.dart';
 import '../../features/home/provider/home_provider.dart';
-import '../../features/maps/repo/map_repo.dart';
 import '../../features/reservations/provider/reservations_provider.dart';
 import '../../features/reservations/repo/reservations_repo.dart';
 import '../../features/notifications/provider/notifications_provider.dart';
@@ -55,8 +53,7 @@ Future<void> init() async {
   sl.registerLazySingleton(
       () => NotificationsRepo(sharedPreferences: sl(), dioClient: sl()));
 
-  sl.registerLazySingleton(
-      () => MapRepo(sharedPreferences: sl(), dioClient: sl()));
+
   sl.registerLazySingleton(
       () => SessionDetailsRepo(sharedPreferences: sl(), dioClient: sl()));
   sl.registerLazySingleton(
@@ -76,7 +73,6 @@ Future<void> init() async {
   sl.registerLazySingleton(
       () => NotificationsProvider(notificationsRepo: sl()));
   sl.registerLazySingleton(() => ProfileProvider(profileRepo: sl()));
-  sl.registerLazySingleton(() => MapProvider(mapRepo: sl()));
   sl.registerLazySingleton(() => ConfigProvider(repo: sl()));
 
   // External
