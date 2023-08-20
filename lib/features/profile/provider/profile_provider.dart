@@ -76,13 +76,13 @@ class ProfileProvider extends ChangeNotifier {
     Map<String, dynamic> body = {
       "name": profileModel?.name,
       "phone": profileModel?.phone,
-      "gender": profileModel?.gender,
+      // "gender": profileModel?.gender,
     };
 
     if (checkData(body) || hasImage()) {
       if (profileImage != null) {
         body.addAll({
-          "photo": MultipartFile.fromFileSync(profileImage!.path),
+          "photo":await MultipartFile.fromFileSync(profileImage!.path),
         });
       }
       if (_boolCheckString(phoneTEC.text.trim(), "phone", body)) {
