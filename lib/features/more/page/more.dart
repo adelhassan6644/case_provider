@@ -46,6 +46,11 @@ class More extends StatelessWidget {
                     onTap: () => CustomNavigator.push(Routes.CHANGE_PASSWORD),
                   ),
                   MoreButton(
+                    title: getTranslated("language", context),
+                    icon: SvgImages.language,
+                    onTap: () => CustomNavigator.push(Routes.ChooseLanguageScreen),
+                  ),
+                  MoreButton(
                     title: getTranslated("contact_with_us", context),
                     icon: SvgImages.outlineMailIcon,
                     onTap: () => CustomNavigator.push(Routes.ABOUT_US),

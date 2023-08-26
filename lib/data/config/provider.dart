@@ -2,6 +2,7 @@ import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 import 'package:casaProvider/data/config/di.dart' as di;
 
+import '../../app/localization/provider/language_provider.dart';
 import '../../app/localization/provider/localization_provider.dart';
 import '../../app/theme/theme_provider/theme_provider.dart';
 import '../../features/auth/provider/auth_provider.dart';
@@ -18,6 +19,7 @@ abstract class ProviderList {
   static List<SingleChildWidget> providers = [
     ChangeNotifierProvider(create: (_) => di.sl<ThemeProvider>()),
     ChangeNotifierProvider(create: (_) => di.sl<LocalizationProvider>()),
+    ChangeNotifierProvider(create: (_) => di.sl<LanguageProvider>()),
     ChangeNotifierProvider(create: (_) => di.sl<MainPageProvider>()),
     ChangeNotifierProvider(create: (_) => di.sl<SplashProvider>()),
     ChangeNotifierProvider(create: (_) => di.sl<AuthProvider>()),

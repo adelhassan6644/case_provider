@@ -10,6 +10,7 @@ class SvgImages {
   static const String outlineHeartIcon = 'assets/svgs/outline_heart.svg';
   static const String aboutUsIcon = 'assets/svgs/building.svg';
   static const String location = 'assets/svgs/location.svg';
+  static const String language = 'assets/svgs/language.svg';
   static const String moreIcon = 'assets/svgs/more.svg';
   static const String search = 'assets/svgs/search.svg';
   static const String tasks = 'assets/svgs/tasks.svg';

@@ -2,7 +2,9 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import '../../app/localization/provider/localization_provider.dart';
 import '../api/end_points.dart';
+import '../config/di.dart';
 import 'api_clinet.dart';
 import 'logging_interceptor.dart';
 
@@ -25,9 +27,11 @@ class DioClient extends ApiClient {
       ..options.receiveTimeout = const Duration(seconds: 60)
       ..httpClientAdapter
       ..options.headers = {
-        'Content-Type': 'application/json; charset=UTF-8',
-        "Accept": " application/json",
-        'x-api-key': EndPoints.apiKey
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+        'x-api-key': EndPoints.apiKey,
+        "lang": sl.get<LocalizationProvider>().locale.languageCode
+
         // if (sharedPreferences.getString(AppStorageKey.apiToken) != null)
         //   'x-api-key': sharedPreferences.getString(AppStorageKey.apiToken)
       };

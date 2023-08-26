@@ -15,5 +15,6 @@ class Routes {
   static const NOTIFICATIONS = "NOTIFICATIONS";
   static const ABOUT_US = "ABOUT_US";
   static const TERMS = "TERMS";
+  static const ChooseLanguageScreen = "ChooseLanguageScreen";
 
 }

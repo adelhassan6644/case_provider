@@ -1,4 +1,6 @@
 
+import '../../../features/language/provider/language_provider.dart';
+
 class AppStrings {
   static const String appName = 'Casa Provider';
   static const String googleApiKey = 'AIzaSyBxi2NcKA8JE90J07U9M2D90tHgaSg3Xjg';
@@ -18,4 +20,16 @@ class AppStrings {
   static const String englishCode = 'en';
   static const String arabicCode = 'ar';
   static const String locale = 'locale';
+  static List<LanguageModel> languages = [
+    LanguageModel(
+        imageUrl: 'Images.united_kindom',
+        languageName: 'English',
+        countryCode: 'US',
+        languageCode: 'en'),
+    LanguageModel(
+        imageUrl: 'Images.arabic',
+        languageName: 'Arabic',
+        countryCode: 'SA',
+        languageCode: 'ar'),
+  ];
 }

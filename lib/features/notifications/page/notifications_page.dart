@@ -64,53 +64,49 @@ class NotificationsPage extends StatelessWidget {
                               onRefresh: () async {
                                 sl<NotificationsProvider>().getNotifications();
                               },
-                              child: Column(
-                                children: [
-                                  ListAnimator(
-                                      data: List.generate(
-                                          provider.model?.data?.length ?? 0,
-                                          (index) => Dismissible(
-                                                background: Row(
-                                                  crossAxisAlignment:
-                                                      CrossAxisAlignment.center,
-                                                  children: [
-                                                    CustomButton(
-                                                      width: 100.w,
-                                                      height: 30.h,
-                                                      text: getTranslated(
-                                                          "delete", context),
-                                                      svgIcon: SvgImages.cancel,
-                                                      iconSize: 12,
-                                                      iconColor:
-                                                          Styles.IN_ACTIVE,
-                                                      textColor:
-                                                          Styles.IN_ACTIVE,
-                                                      backgroundColor: Styles
-                                                          .IN_ACTIVE
-                                                          .withOpacity(0.12),
-                                                    ),
-                                                  ],
+                              child: ListAnimator(
+                                  data: List.generate(
+                                      provider.model?.data?.length ?? 0,
+                                      (index) => Dismissible(
+                                            background: Row(
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.center,
+                                              children: [
+                                                CustomButton(
+                                                  width: 100.w,
+                                                  height: 30.h,
+                                                  text: getTranslated(
+                                                      "delete", context),
+                                                  svgIcon: SvgImages.cancel,
+                                                  iconSize: 12,
+                                                  iconColor:
+                                                      Styles.IN_ACTIVE,
+                                                  textColor:
+                                                      Styles.IN_ACTIVE,
+                                                  backgroundColor: Styles
+                                                      .IN_ACTIVE
+                                                      .withOpacity(0.12),
                                                 ),
-                                                key: ValueKey(index),
-                                                confirmDismiss:
-                                                    (DismissDirection
-                                                        direction) async {
-                                                  provider.deleteNotification(
-                                                      provider
-                                                              .model
-                                                              ?.data?[index]
-                                                              .id ??
-                                                          0);
-                                                  return false;
-                                                },
-                                                child: NotificationCard(
-                                                  withBorder: index != 9,
-                                                  notification: provider
-                                                      .model?.data?[index],
-                                                ),
-                                              ))),
-                                ],
-                              ),
+                                              ],
+                                            ),
+                                            key: ValueKey(index),
+                                            confirmDismiss:
+                                                (DismissDirection
+                                                    direction) async {
+                                              provider.deleteNotification(
+                                                  provider
+                                                          .model
+                                                          ?.data?[index]
+                                                          .id ??
+                                                      0);
+                                              return false;
+                                            },
+                                            child: NotificationCard(
+                                              withBorder: index != 9,
+                                              notification: provider
+                                                  .model?.data?[index],
+                                            ),
+                                          ))),
                             )
                           : RefreshIndicator(
                               color: Styles.PRIMARY_COLOR,

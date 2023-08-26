@@ -30,7 +30,7 @@ class SessionDetailsRepo {
   Future<Either<ServerFailure, Response>> endSession(id) async {
     try {
       Response response =
-          await dioClient.get(uri: EndPoints.endReservations(id));
+          await dioClient.get(uri: EndPoints.endReservations(id.toString()));
       if (response.statusCode == 200) {
         return Right(response);
       } else {

@@ -39,27 +39,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>FirebaseAppCheckInterop.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>FirebaseAuth.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>FirebaseCore.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>FirebaseCoreInternal.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>FirebaseDynamicLinks.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -79,11 +64,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>GTMSessionFetcher.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GoogleAppMeasurement.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -94,17 +74,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>GoogleMaps.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GoogleUtilities.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>OrderedSet.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -139,11 +109,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>app_settings.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>audio_session.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -164,32 +129,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>firebase_auth.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>firebase_core.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>firebase_dynamic_links.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>firebase_messaging.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>flutter_inappwebview.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>flutter_keyboard_visibility.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -209,27 +154,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>geolocator_apple.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>google_maps_flutter_ios.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>image_picker_ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>just_audio.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>map_launcher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

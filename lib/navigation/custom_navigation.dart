@@ -9,6 +9,7 @@ import '../features/auth/pages/forget_password.dart';
 import '../features/auth/pages/login.dart';
 import '../features/auth/pages/register.dart';
 import '../features/auth/pages/verification.dart';
+import '../features/language/choose_language_screen.dart';
 import '../features/on_boarding/pages/on_boarding.dart';
 import '../features/session_details/page/session_details.dart';
 import '../features/setting/pages/about_us.dart';
@@ -47,7 +48,8 @@ abstract class CustomNavigator {
         return _pageRoute(const Register());
       case Routes.CHANGE_PASSWORD:
         return _pageRoute(const ChangePassword());
-
+      case Routes.ChooseLanguageScreen:
+        return _pageRoute(const ChooseLanguageScreen());
       case Routes.NOTIFICATIONS:
         return _pageRoute(const NotificationsPage());
       case Routes.VERIFICATION:

@@ -38,6 +38,7 @@ class _NotificationCardState extends State<NotificationCard> {
           sl<NotificationsProvider>()
               .readNotification(widget.notification?.id ?? 0);
           setState(() => widget.notification?.isRead = true);
+          CustomNavigator.push(Routes.SESSION_DETAILS, arguments: widget.notification?.notificationBody?.reservationId);
         }
       },
       child: Container(

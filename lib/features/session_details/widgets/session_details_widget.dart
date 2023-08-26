@@ -114,13 +114,13 @@ class SessionDetailsWidget extends StatelessWidget {
                   ///Date
                   Padding(
                     padding: EdgeInsets.symmetric(vertical: 16.h),
-                    child: Text("الموعد",
+                    child: Text(getTranslated("date", context),
                         style: AppTextStyles.semiBold.copyWith(
                             height: 1, fontSize: 18, color: Styles.TITLE)),
                   ),
                   Row(
                     children: [
-                      Text("اليوم  ",
+                      Text(getTranslated("day", context),
                           style: AppTextStyles.regular.copyWith(
                               height: 1,
                               fontSize: 14,
@@ -140,7 +140,7 @@ class SessionDetailsWidget extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      Text("الساعة  ",
+                      Text(getTranslated("time", context),
                           style: AppTextStyles.regular.copyWith(
                               height: 1,
                               fontSize: 14,
