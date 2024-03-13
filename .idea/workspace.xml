@@ -7,181 +7,124 @@
     <list default="true" id="8344f4d2-feb8-4e71-af36-f0fd63510214" name="Changes" comment="updates">
       <change afterPath="$PROJECT_DIR$/android/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/android/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/svgs/language.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/Pods/Manifest.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/language/choose_language_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/features/language/provider/language_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/casa.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/key.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values-night-v31/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values-night-v31/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values-v31/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values-v31/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/language/ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/language/ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/language/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/language/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/app_settings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_auth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/firebase_dynamic_links" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_inappwebview" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/flutter_keyboard_visibility" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/geolocator_apple" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/google_maps_flutter_ios" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/map_launcher" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/package_info_plus" beforeDir="false" afterPath="$PROJECT_DIR$/ios/.symlinks/plugins/package_info_plus" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.symlinks/plugins/webview_flutter_wkwebview" beforeDir="false" afterPath="$PROJECT_DIR$/ios/.symlinks/plugins/webview_flutter_wkwebview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Flutter.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Flutter.podspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/Flutter.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/Flutter.podspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Local Podspecs/fluttertoast.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Local Podspecs/fluttertoast.podspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Manifest.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseAppCheckInterop.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseAuth.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseDynamicLinks.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/GTMSessionFetcher.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/GoogleMaps.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/OrderedSet.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/app_settings.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/firebase_auth.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/firebase_dynamic_links.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/flutter_inappwebview.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/flutter_keyboard_visibility.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/geolocator_apple.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/google_maps_flutter_ios.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/map_launcher.xcscheme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/DKImagePickerController-DKImagePickerController.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/DKImagePickerController-DKImagePickerController.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/DKImagePickerController.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/DKImagePickerController.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/DKPhotoGallery-DKPhotoGallery.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/DKPhotoGallery-DKPhotoGallery.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/DKPhotoGallery.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/DKPhotoGallery.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FMDB.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FMDB.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Firebase.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Firebase.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseAnalytics.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseAnalytics.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseCore.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseCore.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseCoreInternal.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseCoreInternal.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseInstallations.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseInstallations.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseMessaging.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/FirebaseMessaging.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Flutter.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Flutter.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/GoogleAppMeasurement.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/GoogleAppMeasurement.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/GoogleDataTransport.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/GoogleDataTransport.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/GoogleUtilities.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/GoogleUtilities.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Pods-Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Pods-Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/PromisesObjC.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/PromisesObjC.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Reachability.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Reachability.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/SDWebImage.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/SDWebImage.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/SwiftyGif.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/SwiftyGif.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Toast.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/Toast.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/audio_session.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/audio_session.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/connectivity.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/connectivity.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/file_picker.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/file_picker.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/firebase_analytics.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/firebase_analytics.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/firebase_core.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/firebase_core.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/firebase_messaging.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/firebase_messaging.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/flutter_local_notifications.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/flutter_local_notifications.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/flutter_native_splash.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/flutter_native_splash.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/fluttertoast.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/fluttertoast.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/image_picker_ios.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/image_picker_ios.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/just_audio.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/just_audio.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/nanopb.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/nanopb.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/package_info_plus.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/package_info_plus.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/path_provider_foundation.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/path_provider_foundation.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/permission_handler_apple.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/permission_handler_apple.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/shared_preferences_foundation.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/shared_preferences_foundation.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/sqflite.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/sqflite.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/url_launcher_ios.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/url_launcher_ios.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/video_player_avfoundation.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/video_player_avfoundation.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/wakelock_plus.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/wakelock_plus.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/webview_flutter_wkwebview.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/xcuserdata/mhamedelbaz.xcuserdatad/xcschemes/webview_flutter_wkwebview.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/DKImagePickerController/DKImagePickerController.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/DKImagePickerController/DKImagePickerController.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/DKImagePickerController/DKImagePickerController.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/DKImagePickerController/DKImagePickerController.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/DKPhotoGallery/DKPhotoGallery.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/DKPhotoGallery/DKPhotoGallery.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/DKPhotoGallery/DKPhotoGallery.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/DKPhotoGallery/DKPhotoGallery.release.xcconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Firebase/Firebase.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Firebase/Firebase.debug.xcconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Firebase/Firebase.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Firebase/Firebase.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAuth/FirebaseAuth.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseDynamicLinks/FirebaseDynamicLinks-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseDynamicLinks/FirebaseDynamicLinks-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseDynamicLinks/FirebaseDynamicLinks-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseDynamicLinks/FirebaseDynamicLinks.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseDynamicLinks/FirebaseDynamicLinks.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseDynamicLinks/FirebaseDynamicLinks.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GTMSessionFetcher/GTMSessionFetcher.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-input-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks-output-files.xcfilelist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleMaps/GoogleMaps-xcframeworks.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleMaps/GoogleMaps.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/GoogleMaps/GoogleMaps.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/OrderedSet/OrderedSet-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/OrderedSet/OrderedSet-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/OrderedSet/OrderedSet-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/OrderedSet/OrderedSet-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/OrderedSet/OrderedSet.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/OrderedSet/OrderedSet.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/OrderedSet/OrderedSet.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-acknowledgements.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Debug-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Debug-input-files.xcfilelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Debug-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Debug-output-files.xcfilelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Profile-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Profile-input-files.xcfilelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Profile-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Profile-output-files.xcfilelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Release-input-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Release-input-files.xcfilelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Release-output-files.xcfilelist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks-Release-output-files.xcfilelist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAnalytics/FirebaseAnalytics.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAnalytics/FirebaseAnalytics.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAnalytics/FirebaseAnalytics.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseAnalytics/FirebaseAnalytics.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/FirebaseCoreInternal/FirebaseCoreInternal.release.xcconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/app_settings/app_settings-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/app_settings/app_settings-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/app_settings/app_settings-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/app_settings/app_settings-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/app_settings/app_settings.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/app_settings/app_settings.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/app_settings/app_settings.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_analytics/firebase_analytics.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_analytics/firebase_analytics.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_analytics/firebase_analytics.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_analytics/firebase_analytics.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_auth/firebase_auth-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_auth/firebase_auth-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_auth/firebase_auth-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_auth/firebase_auth-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_auth/firebase_auth.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_auth/firebase_auth.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_auth/firebase_auth.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_core/firebase_core.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_dynamic_links/firebase_dynamic_links-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_dynamic_links/firebase_dynamic_links-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_dynamic_links/firebase_dynamic_links-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_dynamic_links/firebase_dynamic_links-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_dynamic_links/firebase_dynamic_links.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_dynamic_links/firebase_dynamic_links.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_dynamic_links/firebase_dynamic_links.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_messaging/firebase_messaging.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_messaging/firebase_messaging.debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_messaging/firebase_messaging.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/firebase_messaging/firebase_messaging.release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_inappwebview/flutter_inappwebview-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_inappwebview/flutter_inappwebview-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_inappwebview/flutter_inappwebview-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_inappwebview/flutter_inappwebview-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_inappwebview/flutter_inappwebview.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_inappwebview/flutter_inappwebview.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_inappwebview/flutter_inappwebview.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_keyboard_visibility/flutter_keyboard_visibility-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_keyboard_visibility/flutter_keyboard_visibility-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_keyboard_visibility/flutter_keyboard_visibility-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_keyboard_visibility/flutter_keyboard_visibility-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_keyboard_visibility/flutter_keyboard_visibility.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_keyboard_visibility/flutter_keyboard_visibility.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/flutter_keyboard_visibility/flutter_keyboard_visibility.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/geolocator_apple/geolocator_apple-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/geolocator_apple/geolocator_apple-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/geolocator_apple/geolocator_apple-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/geolocator_apple/geolocator_apple.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/geolocator_apple/geolocator_apple.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/geolocator_apple/geolocator_apple.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/google_maps_flutter_ios/google_maps_flutter_ios-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/google_maps_flutter_ios/google_maps_flutter_ios-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/google_maps_flutter_ios/google_maps_flutter_ios-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/google_maps_flutter_ios/google_maps_flutter_ios.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/google_maps_flutter_ios/google_maps_flutter_ios.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/google_maps_flutter_ios/google_maps_flutter_ios.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/map_launcher/map_launcher-Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/map_launcher/map_launcher-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/map_launcher/map_launcher-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/map_launcher/map_launcher-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/map_launcher/map_launcher.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/map_launcher/map_launcher.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/map_launcher/map_launcher.release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/SwiftyGif/SwiftyGif.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/SwiftyGif/SwiftyGif.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/SwiftyGif/SwiftyGif.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/SwiftyGif/SwiftyGif.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/path_provider_foundation/path_provider_foundation.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/path_provider_foundation/path_provider_foundation.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/path_provider_foundation/path_provider_foundation.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/path_provider_foundation/path_provider_foundation.release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/shared_preferences_foundation/shared_preferences_foundation.debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/shared_preferences_foundation/shared_preferences_foundation.debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Pods/Target Support Files/shared_preferences_foundation/shared_preferences_foundation.release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Target Support Files/shared_preferences_foundation/shared_preferences_foundation.release.xcconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/core/utils/app_strings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/core/utils/app_strings.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/core/utils/svg_images.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/core/utils/svg_images.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/config/provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/config/provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/dio/dio_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/dio/dio_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/more/page/more.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/more/page/more.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/notifications/page/notifications_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/notifications/page/notifications_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/notifications/widgets/notification_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/notifications/widgets/notification_card.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/session_details/repo/session_details_repo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/session_details/repo/session_details_repo.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/features/session_details/widgets/session_details_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/features/session_details/widgets/session_details_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/navigation/custom_navigation.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/navigation/custom_navigation.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/navigation/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/navigation/routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/theme/dark_theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/theme/dark_theme.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/theme/light_theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/theme/light_theme.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -198,6 +141,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -209,32 +155,33 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "/Users/mhamedelbaz/SoftweareCloud2/case_provider/assets/svgs",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mastar&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mhamedelbaz/SoftweareCloud2/case_provider/android/app&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/app" />
+      <recent name="$PROJECT_DIR$/android" />
       <recent name="$PROJECT_DIR$/assets/svgs" />
       <recent name="$PROJECT_DIR$/lib/features" />
       <recent name="$PROJECT_DIR$/android/app/src/main/res/drawable-v21" />
-      <recent name="$PROJECT_DIR$/android/app/src/main/res/drawable-night-v21" />
-      <recent name="$PROJECT_DIR$/android/app/src/main/res/drawable" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/android/app/src/main/res/drawable-night" />
@@ -397,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692541880461</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="updates">
+      <created>1693066956463</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1693066956463</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
