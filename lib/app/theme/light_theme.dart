@@ -40,49 +40,49 @@ ThemeData light = ThemeData(
         fontFamily: AppStrings.fontFamily),
   ),
   textTheme: const TextTheme(
-    button: TextStyle(color: Styles.PRIMARY_COLOR),
-    headline1: TextStyle(
+    labelLarge: TextStyle(color: Styles.PRIMARY_COLOR),
+    displayLarge: TextStyle(
       fontWeight: FontWeight.w300,
       fontSize: Dimensions.FONT_SIZE_DEFAULT,
       fontFamily: AppStrings.fontFamily,
     ),
-    headline2: TextStyle(
+    displayMedium: TextStyle(
       fontWeight: FontWeight.w400,
       fontSize: Dimensions.FONT_SIZE_DEFAULT,
       fontFamily: AppStrings.fontFamily,
     ),
-    headline3: TextStyle(
+    displaySmall: TextStyle(
       fontWeight: FontWeight.w500,
       fontSize: Dimensions.FONT_SIZE_DEFAULT,
       fontFamily: AppStrings.fontFamily,
     ),
-    headline4: TextStyle(
+    headlineMedium: TextStyle(
       fontWeight: FontWeight.w600,
       fontSize: Dimensions.FONT_SIZE_DEFAULT,
       fontFamily: AppStrings.fontFamily,
     ),
-    headline5: TextStyle(
+    headlineSmall: TextStyle(
       fontWeight: FontWeight.w700,
       fontSize: Dimensions.FONT_SIZE_DEFAULT,
       fontFamily: AppStrings.fontFamily,
     ),
-    headline6: TextStyle(
+    titleLarge: TextStyle(
       fontWeight: FontWeight.w800,
       fontSize: Dimensions.FONT_SIZE_DEFAULT,
       fontFamily: AppStrings.fontFamily,
     ),
-    caption: TextStyle(
+    bodySmall: TextStyle(
       fontWeight: FontWeight.w900,
       fontSize: Dimensions.FONT_SIZE_DEFAULT,
       fontFamily: AppStrings.fontFamily,
     ),
-    subtitle1: TextStyle(
+    titleMedium: TextStyle(
       fontSize: 15.0,
       fontWeight: FontWeight.w500,
       fontFamily: AppStrings.fontFamily,
     ),
-    bodyText2: TextStyle(fontSize: 12.0),
-    bodyText1: TextStyle(
+    bodyMedium: TextStyle(fontSize: 12.0),
+    bodyLarge: TextStyle(
       fontSize: 14.0,
       fontWeight: FontWeight.w600,
       fontFamily: AppStrings.fontFamily,

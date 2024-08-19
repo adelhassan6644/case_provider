@@ -3,7 +3,6 @@ import 'package:casaProvider/app/core/utils/text_styles.dart';
 import 'package:casaProvider/app/localization/localization/language_constant.dart';
 import 'package:casaProvider/navigation/custom_navigation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_animated_dialog/flutter_animated_dialog.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import '../../app/core/utils/styles.dart';
 import '../../app/core/utils/dimensions.dart';
@@ -11,7 +10,7 @@ import '../../app/core/utils/images.dart';
 import 'dart:ui' as ui;
 
 loadingDialog() {
-  return showAnimatedDialog(
+  return showDialog(
     context: CustomNavigator.navigatorState.currentContext!,
     barrierDismissible: false,
     builder: (BuildContext context) {
@@ -60,10 +59,10 @@ loadingDialog() {
         ),
       );
     },
-    animationType: DialogTransitionType.fadeScale,
-    curve: Curves.easeInOutBack,
-    barrierColor: Colors.grey.withOpacity(0.25),
-    duration: const Duration(milliseconds: 700),
+    // animationType: DialogTransitionType.fadeScale,
+    // curve: Curves.easeInOutBack,
+    // barrierColor: Colors.grey.withOpacity(0.25),
+    // duration: const Duration(milliseconds: 700),
   );
 }
 

@@ -4,7 +4,7 @@ description: A new Flutter project.
 
 publish_to: 'none'
 
-version: 1.0.0+8
+version: 1.0.10+9
 #flutter build apk --release --no-tree-shake-icons
 environment:
   sdk: '>=2.19.3 <3.0.0'
@@ -30,7 +30,7 @@ dependencies:
   image_picker:
   cached_network_image: ^3.3.1
   flutter_styled_toast:
-  flutter_animated_dialog:
+#  flutter_animated_dialog:
   flutter_animate:
   url_launcher: ^6.1.11
 #  readmore:
@@ -48,7 +48,7 @@ dependencies:
 #  firebase_dynamic_links: ^5.1.0
   firebase_analytics: ^10.2.1
   flutter_native_splash: ^2.2.0+1
-  syncfusion_flutter_charts: ^22.1.39
+  syncfusion_flutter_charts:
 #  flutter_typeahead:
 #  geolocator_platform_interface:
 #  geolocator: ^9.0.2
